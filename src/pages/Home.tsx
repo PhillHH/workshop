@@ -1,127 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
-// --- Icons & Shapes ---
-const CheckIcon = () => (
-  <svg className="h-5 w-5 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-  </svg>
-);
-
-const PlayIcon = () => (
-  <svg className="h-16 w-16 text-white opacity-80 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M8 5v14l11-7z" />
-  </svg>
-);
-
-const ChevronDownIcon = ({ className }: { className?: string }) => (
-  <svg className={`h-5 w-5 ${className}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-  </svg>
-);
-
-const SproutIcon = ({ className }: { className?: string }) => (
-  <svg className={`h-8 w-8 ${className}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-  </svg>
-);
-
-const RocketIcon = ({ className }: { className?: string }) => (
-   <svg className={`h-8 w-8 ${className}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-   </svg>
-);
-
-const GearsIcon = ({ className }: { className?: string }) => (
-   <svg className={`h-8 w-8 ${className}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-   </svg>
-);
-
-// --- Components ---
-
-const AccordionItem = ({ question, answer }: { question: string; answer: string }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <div className="border-b border-gray-80">
-      <button
-        className="w-full py-6 flex justify-between items-center text-left focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span className="text-lg font-medium text-white">{question}</span>
-        <span className={`transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>
-          <ChevronDownIcon className="text-primary" />
-        </span>
-      </button>
-      <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'
-        }`}
-      >
-        <p className="text-gray-30 leading-relaxed">{answer}</p>
-      </div>
-    </div>
-  );
-};
-
-const CourseCard = ({
-  title,
-  subtitle,
-  price,
-  duration,
-  features,
-  isHighlight = false,
-}: {
-  title: string;
-  subtitle: string;
-  price: string;
-  duration: string;
-  features: string[];
-  isHighlight?: boolean;
-}) => {
-  return (
-    <div className={`relative flex flex-col p-8 rounded-2xl border ${isHighlight ? 'border-primary bg-gray-90 shadow-[0_0_30px_rgba(16,185,129,0.1)]' : 'border-gray-80 bg-gray-90'} h-full transition-transform hover:-translate-y-1`}>
-      {isHighlight && (
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
-          Empfohlen
-        </div>
-      )}
-      <div className="mb-6">
-        <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
-        <p className="text-gray-50 text-sm h-10">{subtitle}</p>
-      </div>
-      <div className="mb-6">
-        <div className="flex items-baseline">
-          <span className="text-4xl font-extrabold text-white">{price}</span>
-        </div>
-        <p className="text-primary font-medium mt-2">{duration}</p>
-      </div>
-      <ul className="space-y-4 mb-8 flex-1">
-        {features.map((feature, idx) => (
-          <li key={idx} className="flex items-start">
-            <CheckIcon />
-            <span className="ml-3 text-gray-30 text-sm leading-snug">{feature}</span>
-          </li>
-        ))}
-      </ul>
-      <a
-        href="#contact"
-        className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${
-          isHighlight
-            ? 'bg-primary text-white hover:bg-primary-dark'
-            : 'bg-gray-80 text-white hover:bg-gray-70 hover:text-primary'
-        }`}
-      >
-        Jetzt Kurs buchen
-      </a>
-    </div>
-  );
-};
-
-// --- Main Page ---
+import CourseCard from '../components/CourseCard';
+import AccordionItem from '../components/AccordionItem';
+import TrustSection from '../components/TrustSection';
+import { PlayIcon, SproutIcon, RocketIcon, GearsIcon } from '../components/Icons';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -164,24 +48,26 @@ const Home = () => {
 
               {/* Video Placeholder */}
               <div className="lg:col-span-6">
-                <div className="relative group cursor-pointer w-full aspect-video bg-gray-90 rounded-2xl border border-gray-80 overflow-hidden shadow-2xl">
-                  {/* Mock UI for "AI Tool" look */}
-                  <div className="absolute top-0 left-0 w-full h-8 bg-gray-80 border-b border-gray-70 flex items-center px-4 space-x-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                 <Link to="/referenzen">
+                  <div className="relative group cursor-pointer w-full aspect-video bg-gray-90 rounded-2xl border border-gray-80 overflow-hidden shadow-2xl">
+                    {/* Mock UI for "AI Tool" look */}
+                    <div className="absolute top-0 left-0 w-full h-8 bg-gray-80 border-b border-gray-70 flex items-center px-4 space-x-2">
+                      <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                      <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                      <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center top-8">
+                      <div className="text-center">
+                          <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/30 transition-colors">
+                            <PlayIcon />
+                          </div>
+                          <p className="text-gray-50 text-sm font-medium">Video ansehen (1:30 min)</p>
+                      </div>
+                    </div>
+                    {/* Decorative grid lines */}
+                    <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none top-8"></div>
                   </div>
-                  <div className="absolute inset-0 flex items-center justify-center top-8">
-                     <div className="text-center">
-                        <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/30 transition-colors">
-                           <PlayIcon />
-                        </div>
-                        <p className="text-gray-50 text-sm font-medium">Video ansehen (1:30 min)</p>
-                     </div>
-                  </div>
-                  {/* Decorative grid lines */}
-                  <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none top-8"></div>
-                </div>
+                 </Link>
               </div>
             </div>
           </div>
@@ -200,6 +86,9 @@ const Home = () => {
             </p>
           </div>
         </section>
+
+        {/* Trust Section */}
+        <TrustSection />
 
         {/* 3. Course Overview */}
         <section id="kurse" className="py-24 relative">
@@ -224,6 +113,7 @@ const Home = () => {
                   "Einführung Bildgenerierung",
                   "Sicherheit & Ethik"
                 ]}
+                link="/ki-grundlagen"
               />
               <CourseCard
                 title="KI im Beruf"
@@ -238,6 +128,7 @@ const Home = () => {
                   "Wissensmanagement mit KI",
                   "Aufbau persönlicher Patterns"
                 ]}
+                link="/ki-im-beruf"
               />
               <CourseCard
                 title="KI-Automatisierung"
@@ -251,6 +142,7 @@ const Home = () => {
                   "Team-Workflows entwickeln",
                   "Strategische Entscheidungsfindung"
                 ]}
+                link="/ki-automatisierung"
               />
             </div>
 
@@ -327,37 +219,40 @@ const Home = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                {/* Persona 1 */}
-               <div className="text-center p-6">
-                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white">
+               <Link to="/fuer-neulinge" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <SproutIcon />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">KI-Neulinge</h3>
-                  <p className="text-gray-30">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">KI-Neulinge</h3>
+                  <p className="text-gray-30 mb-4">
                      Privatpersonen, Angestellte oder Studierende ohne Vorerfahrung, die neugierig sind, aber auch Ängste oder Unsicherheiten abbauen wollen.
                   </p>
-               </div>
+                  <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
+               </Link>
 
                {/* Persona 2 */}
-               <div className="text-center p-6">
-                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white">
+               <Link to="/fuer-berufstaetige" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <RocketIcon />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">KI-Anwender</h3>
-                  <p className="text-gray-30">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">KI-Anwender</h3>
+                  <p className="text-gray-30 mb-4">
                      Berufstätige und Kreative, die KI gezielt zur Steigerung ihrer Produktivität und Qualität im Arbeitsalltag einsetzen wollen.
                   </p>
-               </div>
+                  <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
+               </Link>
 
                {/* Persona 3 */}
-               <div className="text-center p-6">
-                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white">
+               <Link to="/fuer-manager-strategen" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+                  <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <GearsIcon />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">KI-Strategen</h3>
-                  <p className="text-gray-30">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">KI-Strategen</h3>
+                  <p className="text-gray-30 mb-4">
                      Teamleiter und Manager, die ganze Arbeitsabläufe im Unternehmen mithilfe von KI optimieren und automatisieren möchten.
                   </p>
-               </div>
+                  <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
+               </Link>
             </div>
           </div>
         </section>
@@ -401,13 +296,12 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
                {/* Placeholder for checkout link */}
-              <a href="#" className="bg-primary hover:bg-primary-dark text-white px-10 py-5 rounded-lg text-xl font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105">
+              <a href="#kurse" className="bg-primary hover:bg-primary-dark text-white px-10 py-5 rounded-lg text-xl font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105">
                 Jetzt Platz sichern
               </a>
             </div>
             <p className="mt-6 text-sm text-gray-50">
-               Sie werden zum Zahlungsanbieter weitergeleitet.
-               <br/>Fragen vorab? Schreiben Sie an <a href="mailto:kontakt@growento.ai" className="text-primary hover:underline">kontakt@growento.ai</a>
+               Fragen vorab? Schreiben Sie an <a href="mailto:kontakt@growento.ai" className="text-primary hover:underline">kontakt@growento.ai</a>
             </p>
           </div>
         </section>
