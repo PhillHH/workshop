@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["system-ui", "ui-sans-serif", "sans-serif"]
+        sans: ['"Plus Jakarta Sans"', "system-ui", "ui-sans-serif", "sans-serif"]
+      },
+      colors: {
+        primary: "#10B981", // Modern Mint
+        charcoal: "#1F2937", // Deep Charcoal
+        "light-smoke": "#F9FAFB", // Light Smoke
       }
     }
   },
   plugins: []
 };
-
-
