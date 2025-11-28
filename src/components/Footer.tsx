@@ -2,13 +2,49 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-12 border-t border-zinc-900 text-center text-zinc-500 text-sm">
-      <div className="container mx-auto px-6">
-        <p>&copy; 2024 Growento UI. Alle Rechte vorbehalten.</p>
-        <div className="flex justify-center gap-6 mt-4">
-           <a href="#" className="hover:text-white transition-colors">Impressum</a>
-           <a href="#" className="hover:text-white transition-colors">Datenschutz</a>
-           <a href="#" className="hover:text-white transition-colors">Kontakt</a>
+    <footer className="bg-gray-100 border-t border-gray-80 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="col-span-1 md:col-span-1">
+            <span className="text-2xl font-bold text-white tracking-tight">
+              Growento<span className="text-primary">.AI</span>
+            </span>
+            <p className="mt-4 text-sm text-gray-50">
+              Werden Sie vom KI-Nutzer zum KI-Gestalter. Professionelle Workshops in Hamburg.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Kurse</h3>
+            <ul className="mt-4 space-y-4">
+              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI-Grundlagen</a></li>
+              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI im Beruf</a></li>
+              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI-Automatisierung</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Rechtliches</h3>
+            <ul className="mt-4 space-y-4">
+              <li><a href="#" className="text-base text-gray-50 hover:text-primary">Impressum</a></li>
+              <li><a href="#" className="text-base text-gray-50 hover:text-primary">Datenschutz</a></li>
+              <li><a href="#" className="text-base text-gray-50 hover:text-primary">AGB</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Kontakt</h3>
+            <ul className="mt-4 space-y-4">
+              <li className="text-base text-gray-50">Hamburg, Deutschland</li>
+              <li className="text-base text-gray-50">Steinstraße 5-7 oder Heidi-Kabel-Platz</li>
+              <li className="text-base text-gray-50"><a href="mailto:kontakt@growento.ai" className="hover:text-primary">kontakt@growento.ai</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-12 border-t border-gray-80 pt-8">
+          <p className="text-base text-gray-50 text-center">
+            &copy; {new Date().getFullYear()} Growento AI. Alle Rechte vorbehalten.
+          </p>
         </div>
       </div>
     </footer>
