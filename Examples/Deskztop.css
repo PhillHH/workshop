@@ -1,0 +1,959 @@
+<div class="w-[1440px] bg-black inline-flex flex-col justify-start items-start overflow-hidden">
+    <div data-is-mobile="False" data-type="3" class="self-stretch relative bg-black flex flex-col justify-start items-start overflow-hidden">
+        <img class="w-[1981px] h-[1486px] left-[0.50px] top-[-530px] absolute" src="https://placehold.co/1981x1486" />
+        <div data-is-mobile="False" data-type="1" class="min-h-20 px-28 py-4 bg-gradient-to-b from-black to-black/0 flex flex-col justify-start items-start gap-2.5">
+            <div class="w-[1216px] inline-flex justify-start items-center gap-4">
+                <div class="flex-1 flex justify-start items-center gap-12">
+                    <div data-is-dark-mode="True" class="flex justify-start items-center gap-1">
+                        <div data-type="Plain - Brand" class="w-8 h-8 flex justify-center items-center gap-[5px]">
+                            <div class="w-6 h-6 bg-orange-500 shadow-[0px_4px_8px_0px_rgba(249,115,22,0.25)] outline outline-[0.25px] outline-orange-500"></div>
+                        </div>
+                        <div class="w-24 pb-1 inline-flex flex-col justify-start items-start gap-2.5">
+                            <div class="w-24 h-5 bg-white"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center gap-8">
+                        <div data-color="Gray" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="flex justify-center items-center gap-2.5 overflow-hidden">
+                            <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Home</div>
+                        </div>
+                        <div data-color="Gray" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="flex justify-center items-center gap-2.5 overflow-hidden">
+                            <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Product</div>
+                        </div>
+                        <div data-color="Gray" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="flex justify-center items-center gap-2.5 overflow-hidden">
+                            <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Services</div>
+                        </div>
+                        <div data-color="Gray" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="flex justify-center items-center gap-2.5 overflow-hidden">
+                            <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Blog</div>
+                        </div>
+                        <div data-color="Gray" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="flex justify-center items-center gap-2.5 overflow-hidden">
+                            <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Pricing</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-start items-center gap-2">
+                    <div data-color="Brand" data-hierarchy="Outlined" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="min-h-12 px-5 py-3 rounded-2xl outline outline-1 outline-offset-[-1px] outline-orange-500 flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div class="justify-start text-orange-500 text-base font-semibold font-['Work_Sans'] leading-5">Contact Us</div>
+                    </div>
+                    <div data-color="Brand" data-hierarchy="Primary" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="min-h-12 px-5 py-3 bg-orange-500 rounded-2xl flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Try For Free</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-28 py-24 flex flex-col justify-start items-start gap-2.5">
+            <div class="w-[1216px] inline-flex justify-start items-center gap-24">
+                <div class="w-[592px] h-[592px] relative">
+                    <img class="w-[1454.15px] h-[1090.61px] left-[-686.50px] top-[65.51px] absolute origin-top-left rotate-[-15deg]" src="https://placehold.co/1454x1091" />
+                    <img class="w-[1454.24px] h-[1090.90px] left-[-354.69px] top-[-311px] absolute" src="https://placehold.co/1454x1091" />
+                </div>
+                <div class="flex-1 inline-flex flex-col justify-start items-start gap-12">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                        <div data-color="Brand" data-hierarchy="Primary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-blue-600 rounded-xl inline-flex justify-center items-center gap-2 overflow-hidden">
+                            <div class="flex justify-center items-center gap-1.5">
+                                <div class="text-center justify-start text-white text-sm font-medium font-['Work_Sans'] leading-5">Our Mission</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-white text-7xl font-bold font-['Work_Sans'] leading-[80px]">Get Your Fitness Personalized.</div>
+                        <div class="self-stretch justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Train smarter. Eat better. See results faster — with Sandow, the AI-powered fitness & nutrition app built for real transformation.</div>
+                    </div>
+                    <div class="inline-flex justify-start items-start gap-2">
+                        <div data-size="lg" data-store="App Store" data-style="Brand" class="w-32 h-11 relative bg-black rounded-lg outline outline-1 outline-offset-[-1px] outline-zinc-500">
+                            <div class="w-20 h-4 left-[37.90px] top-[19.55px] absolute bg-white"></div>
+                            <div class="w-20 h-2 left-[39.22px] top-[9.26px] absolute bg-white"></div>
+                            <div class="w-5 h-6 left-[10.97px] top-[9.59px] absolute bg-white"></div>
+                        </div>
+                        <div data-size="lg" data-store="Google Play" data-style="Brand" class="w-36 h-11 relative bg-black rounded-lg outline outline-1 outline-offset-[-1px] outline-zinc-500 overflow-hidden">
+                            <div class="w-24 h-5 left-[45.15px] top-[18.75px] absolute bg-white"></div>
+                            <div class="w-11 h-1.5 left-[45.49px] top-[7.55px] absolute bg-white outline outline-[0.20px] outline-offset-[-0.10px] outline-white"></div>
+                            <div class="w-3.5 h-7 left-[10.97px] top-[8.21px] absolute bg-gradient-to-bl from-sky-500 via-sky-500 to-cyan-400"></div>
+                            <div class="w-3 h-2.5 left-[25.19px] top-[17.30px] absolute bg-gradient-to-l from-yellow-400 via-yellow-500 to-amber-500"></div>
+                            <div class="w-5 h-3.5 left-[11.48px] top-[22px] absolute bg-gradient-to-bl from-red-500 to-pink-700 shadow-[inset_0px_-0.15000000596046448px_0px_0px_rgba(0,0,0,0.08)]"></div>
+                            <div class="w-5 h-3.5 left-[11.48px] top-[7.86px] absolute bg-gradient-to-br from-green-500 via-green-500 to-emerald-500"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="4" class="self-stretch px-12 py-16 bg-zinc-800 flex flex-col justify-start items-center gap-2.5 overflow-hidden">
+        <div class="flex flex-col justify-start items-center gap-16">
+            <div class="self-stretch text-center justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Trusted By 500+ Companies.</div>
+            <div class="w-[1216px] inline-flex justify-center items-start gap-4">
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="planetx" data-type="Logo Contained" class="w-16 h-16 relative bg-orange-900 rounded-2xl">
+                        <div data-company="planetx" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-11 left-0 top-0 absolute bg-orange-400 rounded-full"></div>
+                            <div class="w-11 h-11 left-0 top-0 absolute bg-orange-600 rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="linez" data-type="Logo Contained" class="w-16 h-16 relative bg-purple-900 rounded-2xl">
+                        <div data-company="linez" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-2 left-0 top-[7.11px] absolute bg-purple-500 rounded-[109.33px]"></div>
+                            <div class="w-6 h-2 left-[17.77px] top-[17.78px] absolute bg-purple-700 rounded-[109.33px]"></div>
+                            <div class="w-4 h-2 left-[-0.89px] top-[17.78px] absolute bg-purple-700 rounded-[109.33px]"></div>
+                            <div class="w-11 h-2 left-0 top-[28.44px] absolute bg-purple-500 rounded-[109.33px]"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="blox" data-type="Logo Contained" class="w-16 h-16 relative bg-lime-900 rounded-2xl">
+                        <div data-company="blox" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-7 h-7 left-0 top-0 absolute bg-lime-500"></div>
+                            <div class="w-7 h-7 left-[14.22px] top-[14.22px] absolute bg-lime-500"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="pwrup" data-type="Logo Contained" class="w-16 h-16 relative bg-blue-900 rounded-2xl">
+                        <div data-company="pwrup" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-11 left-[42.67px] top-0 absolute origin-top-left rotate-90 bg-blue-500"></div>
+                            <div class="w-5 h-5 left-[42.67px] top-[21.33px] absolute origin-top-left rotate-90 bg-blue-700"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="ring" data-type="Logo Contained" class="w-16 h-16 relative bg-teal-900 rounded-2xl">
+                        <div data-company="ring" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-11 left-0 top-0 absolute rounded-full border-[10.67px] border-teal-500"></div>
+                            <div class="w-11 h-11 left-0 top-0 absolute rounded-full border-[10.67px] border-teal-300"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="brotha" data-type="Logo Contained" class="w-16 h-16 relative bg-pink-900 rounded-2xl">
+                        <div data-company="brotha" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-5 left-0 top-0 absolute bg-pink-700"></div>
+                            <div class="w-11 h-5 left-0 top-[21.33px] absolute bg-pink-500"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 p-4 inline-flex flex-col justify-center items-center gap-2.5">
+                    <div data-company="zeero" data-type="Logo Contained" class="w-16 h-16 relative bg-violet-900 rounded-2xl">
+                        <div data-company="zeero" data-type="Logomark" class="w-11 h-11 left-[10.67px] top-[10.67px] absolute">
+                            <div class="w-11 h-3.5 left-0 top-0 absolute bg-violet-700"></div>
+                            <div class="w-11 h-3.5 left-0 top-[28.44px] absolute bg-violet-700"></div>
+                            <div class="w-11 h-11 left-0 top-0 absolute bg-violet-500"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="2" class="self-stretch px-28 py-24 bg-black flex flex-col justify-start items-start gap-24 overflow-hidden">
+        <div class="self-stretch flex flex-col justify-start items-center gap-4">
+            <div data-color="Brand" data-hierarchy="Secondary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-orange-950 rounded-xl inline-flex justify-center items-center gap-2 overflow-hidden">
+                <div class="flex justify-center items-center gap-1.5">
+                    <div class="text-center justify-start text-orange-500 text-sm font-medium font-['Work_Sans'] leading-5">Features</div>
+                </div>
+            </div>
+            <div class="self-stretch flex flex-col justify-start items-center gap-5">
+                <div class="self-stretch text-center justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">One App. Total Optimization.</div>
+                <div class="self-stretch text-center justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Sandow combines cutting-edge AI with expert-designed training and nutrition programs to deliver a 360° personal coaching experience — anytime, anywhere.</div>
+            </div>
+        </div>
+        <div class="self-stretch inline-flex justify-start items-center gap-24">
+            <div class="w-[627.75px] h-[627.75px] relative bg-zinc-600 rounded-[64px] overflow-hidden">
+                <div class="w-[485.64px] h-[987.67px] left-[-46.50px] top-[101px] absolute origin-top-left rotate-[-30deg] shadow-[17.5217342376709px_35.0434684753418px_85.54728698730469px_0px_rgba(19,19,24,0.15)] shadow-[70.0869369506836px_140.1738739013672px_156.66490173339844px_0px_rgba(19,19,24,0.13)] shadow-[156.66490173339844px_314.3604736328125px_211.29150390625px_0px_rgba(19,19,24,0.08)] shadow-[278.2863464355469px_559.664794921875px_250.4577178955078px_0px_rgba(19,19,24,0.02)] shadow-[435.9819641113281px_874.0252685546875px_273.1329345703125px_0px_rgba(19,19,24,0.00)]">
+                    <div class="w-5 h-9 left-[94.39px] top-[404.51px] absolute bg-black"></div>
+                    <div class="w-[908.16px] h-[1094.55px] left-[3.12px] top-[1.81px] absolute bg-zinc-900 outline outline-1 outline-offset-[-0.50px] outline-zinc-500"></div>
+                    <div class="w-[891.84px] h-[1078.10px] left-[10.94px] top-[9.45px] absolute bg-zinc-900 outline outline-1 outline-offset-[-0.50px] outline-zinc-500"></div>
+                    <div class="w-[851.11px] h-[1037.71px] left-[31.31px] top-[29.64px] absolute bg-black"></div>
+                    <div class="w-5 h-9 left-[95.18px] top-[404.51px] absolute bg-zinc-900"></div>
+                    <div class="w-10 h-16 left-[130.26px] top-[466.64px] absolute bg-black"></div>
+                    <div class="w-10 h-16 left-[131.05px] top-[466.63px] absolute bg-zinc-900"></div>
+                    <div class="w-10 h-16 left-[177.91px] top-[549.16px] absolute bg-black"></div>
+                    <div class="w-10 h-16 left-[178.69px] top-[549.16px] absolute bg-zinc-900"></div>
+                    <div class="w-[891.86px] h-[1078.11px] left-[10.93px] top-[9.44px] absolute opacity-50 bg-black"></div>
+                    <div class="w-16 h-28 left-[635.84px] top-[374.65px] absolute origin-top-left rotate-180 bg-black"></div>
+                    <div class="w-16 h-24 left-[635.04px] top-[374.65px] absolute origin-top-left rotate-180 bg-zinc-900"></div>
+                    <div class="w-[851.11px] h-[1037.71px] left-[31.90px] top-[29.85px] absolute">
+                        <img class="w-[851.11px] h-[1037.71px] left-0 top-0 absolute" src="https://placehold.co/851x1038" />
+                    </div>
+                    <div class="w-36 h-28 left-[167.01px] top-[114.71px] absolute bg-zinc-900 border-1 border-zinc-700"></div>
+                    <div class="w-8 h-8 left-[264.49px] top-[127.43px] absolute bg-zinc-800"></div>
+                    <div class="w-4 h-4 left-[271.45px] top-[134.39px] absolute bg-zinc-700"></div>
+                </div>
+            </div>
+            <div class="flex-1 inline-flex flex-col justify-center items-start gap-12">
+                <div class="self-stretch flex flex-col justify-start items-start gap-5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                        <div data-color="Brand" data-size="lg" data-style="Secondary" class="w-12 h-12 bg-orange-950 rounded-full inline-flex justify-center items-center gap-2.5">
+                            <div data-style="line" class="w-6 h-6 relative">
+                                <div class="w-6 h-3.5 left-0 top-[6px] absolute bg-orange-500"></div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-white text-3xl font-bold font-['Work_Sans'] leading-9">Your Next Personal Trainer</div>
+                    </div>
+                    <div class="self-stretch justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-7">Sandow evolves with you — every week, automatically. Track what matters. Sandow learns from your habits, workouts, and food intake.</div>
+                </div>
+                <div class="self-stretch flex flex-col justify-center items-start gap-5">
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Auto-regulates intensity and recovery</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Includes strength, cardio, HIIT & more</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Built for home or gym, beginner to advanced</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="self-stretch inline-flex justify-start items-center gap-24">
+            <div class="flex-1 inline-flex flex-col justify-center items-start gap-12">
+                <div class="self-stretch flex flex-col justify-start items-start gap-5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                        <div data-color="Brand" data-size="lg" data-style="Secondary" class="w-12 h-12 bg-orange-950 rounded-full inline-flex justify-center items-center gap-2.5">
+                            <div data-style="line" class="w-6 h-6 relative">
+                                <div class="w-5 h-5 left-[1.10px] top-[3.12px] absolute bg-orange-500"></div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-white text-3xl font-bold font-['Work_Sans'] leading-9">Fitness & Health Metrics</div>
+                    </div>
+                    <div class="self-stretch justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-7">Whether your goal is fat loss, muscle gain, better energy, or longevity — Sandow helps you build sustainable health from the inside out.</div>
+                </div>
+                <div class="self-stretch flex flex-col justify-center items-start gap-5">
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Sleep, hydration, step count & more</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Weekly habit focus to avoid burnout</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Mindfulness & stress tracking built-in</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[627.75px] h-[627.75px] relative bg-blue-600 rounded-[64px] overflow-hidden">
+                <img class="w-[1080px] h-[742.50px] left-[48.25px] top-[56.25px] absolute" src="https://placehold.co/1080x742" />
+            </div>
+        </div>
+        <div class="self-stretch inline-flex justify-start items-center gap-24">
+            <div class="w-[627.75px] h-[627.75px] relative bg-orange-500 rounded-[64px] overflow-hidden">
+                <div class="w-[485.64px] h-[987.85px] left-[71.50px] top-[40.50px] absolute shadow-[17.52499771118164px_35.04999542236328px_85.56321716308594px_0px_rgba(19,19,24,0.15)] shadow-[70.09999084472656px_140.19998168945312px_156.69407653808594px_0px_rgba(19,19,24,0.13)] shadow-[156.69407653808594px_314.4190368652344px_211.33084106445312px_0px_rgba(19,19,24,0.08)] shadow-[278.33819580078125px_559.76904296875px_250.50436401367188px_0px_rgba(19,19,24,0.02)] shadow-[436.06317138671875px_874.1881103515625px_273.1838073730469px_0px_rgba(19,19,24,0.00)]">
+                    <div class="w-1 h-9 left-0 top-[188.82px] absolute bg-black"></div>
+                    <div class="w-[478.42px] h-[987.85px] left-[3.60px] top-0 absolute bg-zinc-900 outline outline-1 outline-offset-[-0.50px] outline-zinc-500"></div>
+                    <div class="w-[466.62px] h-[975.66px] left-[9.50px] top-[5.42px] absolute bg-zinc-900 outline outline-1 outline-offset-[-0.50px] outline-zinc-500"></div>
+                    <div class="w-96 h-[946.44px] left-[24.59px] top-[20.03px] absolute bg-black"></div>
+                    <div class="w-[2.70px] h-9 left-[0.91px] top-[188.82px] absolute bg-zinc-900"></div>
+                    <div class="w-1 h-20 left-0 top-[260.57px] absolute bg-black"></div>
+                    <div class="w-[2.70px] h-20 left-[0.91px] top-[260.57px] absolute bg-zinc-900"></div>
+                    <div class="w-1 h-20 left-0 top-[355.88px] absolute bg-black"></div>
+                    <div class="w-[2.70px] h-20 left-[0.91px] top-[355.88px] absolute bg-zinc-900"></div>
+                    <div class="w-[466.63px] h-[975.67px] left-[9.50px] top-[5.41px] absolute opacity-50 bg-black"></div>
+                    <div class="w-1 h-28 left-[485.64px] top-[430.60px] absolute origin-top-left -rotate-180 bg-black"></div>
+                    <div class="w-[2.70px] h-28 left-[484.72px] top-[430.60px] absolute origin-top-left rotate-180 bg-zinc-900"></div>
+                    <div class="w-96 h-[946.44px] left-[25px] top-[20.50px] absolute">
+                        <img class="w-96 h-[946.44px] left-0 top-0 absolute" src="https://placehold.co/436x946" />
+                    </div>
+                    <div class="w-36 h-10 left-[173.87px] top-[32.87px] absolute bg-zinc-900 border border-zinc-700"></div>
+                    <div class="w-6 h-6 left-[281.20px] top-[41.94px] absolute bg-zinc-800"></div>
+                    <div class="w-3 h-3 left-[286.29px] top-[47.03px] absolute bg-zinc-700"></div>
+                </div>
+            </div>
+            <div class="flex-1 inline-flex flex-col justify-center items-start gap-12">
+                <div class="self-stretch flex flex-col justify-start items-start gap-5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                        <div data-color="Brand" data-size="lg" data-style="Secondary" class="w-12 h-12 bg-orange-950 rounded-full inline-flex justify-center items-center gap-2.5">
+                            <div data-style="line" class="w-6 h-6 relative">
+                                <div class="w-5 h-5 left-[1px] top-[1px] absolute bg-orange-500"></div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-white text-3xl font-bold font-['Work_Sans'] leading-9">Dynamic Workout Recommendations</div>
+                    </div>
+                    <div class="self-stretch justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-7">See real-time feedback, auto-adjusted routines, and insights powered by machine learning.</div>
+                </div>
+                <div class="self-stretch flex flex-col justify-center items-start gap-5">
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Plateau prevention system</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Adjusts based on missed workouts</div>
+                    </div>
+                    <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="self-stretch inline-flex justify-start items-center gap-3">
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="md" class="w-7 h-7 relative bg-lime-950 rounded-full">
+                            <div class="w-4 h-4 left-[6px] top-[6px] absolute overflow-hidden">
+                                <div class="w-4 h-4 left-0 top-0 absolute"></div>
+                                <div class="w-3 h-2 left-[2.50px] top-[4.50px] absolute outline outline-2 outline-offset-[-1.16px] outline-lime-600"></div>
+                            </div>
+                        </div>
+                        <div class="flex-1 justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-6">Keeps you on track without restarting</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="1" class="self-stretch px-28 py-24 bg-zinc-800 flex flex-col justify-start items-center gap-16 overflow-hidden">
+        <div class="w-full max-w-[800px] flex flex-col justify-start items-center gap-16">
+            <div class="self-stretch flex flex-col justify-start items-center gap-5">
+                <div data-color="Brand" data-size="xl" data-style="Secondary" class="w-14 h-14 bg-orange-950 rounded-full inline-flex justify-center items-center gap-2.5">
+                    <div data-style="line" class="w-7 h-7 relative overflow-hidden">
+                        <div class="w-6 h-6 left-[26.75px] top-[26.75px] absolute origin-top-left rotate-180 bg-orange-500"></div>
+                    </div>
+                </div>
+                <div class="self-stretch flex flex-col justify-start items-center gap-5">
+                    <div class="self-stretch text-center justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">It's a Coach, Chef & Scientist in Your Pocket.</div>
+                    <div class="self-stretch text-center justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Train with purpose. Eat with confidence. Feel the difference with Sandow.</div>
+                </div>
+            </div>
+            <div class="self-stretch inline-flex justify-start items-start gap-4">
+                <div data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-start items-center gap-4">
+                    <div class="self-stretch text-center justify-start text-orange-500 text-6xl font-bold font-['Work_Sans'] leading-[68px]">55M</div>
+                    <div class="self-stretch text-center justify-start text-zinc-300 text-lg font-semibold font-['Work_Sans'] leading-6">Users Ripped</div>
+                </div>
+                <div class="w-0 self-stretch outline outline-1 outline-offset-[-0.50px] outline-zinc-700"></div>
+                <div data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-start items-center gap-4">
+                    <div class="self-stretch text-center justify-start text-orange-500 text-6xl font-bold font-['Work_Sans'] leading-[68px]">72%</div>
+                    <div class="self-stretch text-center justify-start text-zinc-300 text-lg font-semibold font-['Work_Sans'] leading-6">Muscle Gain</div>
+                </div>
+                <div class="w-0 self-stretch outline outline-1 outline-offset-[-0.50px] outline-zinc-700"></div>
+                <div data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-start items-center gap-4">
+                    <div class="self-stretch text-center justify-start text-orange-500 text-6xl font-bold font-['Work_Sans'] leading-[68px]">10.2X</div>
+                    <div class="self-stretch text-center justify-start text-zinc-300 text-lg font-semibold font-['Work_Sans'] leading-6">Better Health</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="1" class="w-[1440px] px-28 py-24 bg-black flex flex-col justify-start items-start gap-2.5">
+        <div class="flex flex-col justify-start items-center gap-12">
+            <div class="flex flex-col justify-start items-center gap-6">
+                <div class="w-[799px] text-center justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Pricing For Champions.</div>
+                <div class="w-[799px] text-center justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Start for free. Upgrade when you're ready. No hidden fees, no contracts.</div>
+            </div>
+            <div data-is-item-1="false" data-is-item-2="false" data-is-item-3="false" data-is-item-4="true" data-is-item-5="true" data-orientation="Horizontal" data-size="lg" data-style="Default" class="p-1 bg-zinc-900 rounded-[20px] inline-flex justify-start items-start">
+                <div data-is-badge="false" data-is-icon="false" data-is-main-text="true" data-size="lg" data-state="Default" data-style="Default" data-width="Hug" class="min-h-12 px-4 py-3 rounded-2xl flex justify-center items-center gap-2.5 overflow-hidden">
+                    <div class="justify-start text-zinc-300 text-base font-semibold font-['Work_Sans'] leading-5">Monthly</div>
+                </div>
+                <div data-is-badge="false" data-is-icon="false" data-is-main-text="true" data-size="lg" data-state="Active" data-style="Default" data-width="Hug" class="min-h-12 px-4 py-3 bg-zinc-800 rounded-2xl shadow-[0px_8px_16px_0px_rgba(15,23,42,0.02)] shadow-[0px_4px_8px_0px_rgba(15,23,42,0.03)] flex justify-center items-center gap-2.5 overflow-hidden">
+                    <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Yearly</div>
+                </div>
+            </div>
+            <div class="w-[1216px] inline-flex justify-start items-start gap-8">
+                <div data-is-badge="false" data-is-mobile="False" class="flex-1 p-6 bg-zinc-950 rounded-[48px] outline outline-1 outline-offset-[-1px] outline-zinc-700 inline-flex flex-col justify-start items-start gap-8 overflow-hidden">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div class="self-stretch h-8 min-h-8 inline-flex justify-start items-center gap-4">
+                            <div class="flex-1 justify-start text-orange-500 text-lg font-bold font-['Work_Sans'] leading-6">Basic Plan</div>
+                        </div>
+                        <div class="self-stretch inline-flex justify-start items-end gap-1">
+                            <div class="text-center justify-start text-white text-5xl font-bold font-['Work_Sans'] leading-[56px]">8.99</div>
+                            <div class="pb-1 flex justify-start items-end gap-2.5">
+                                <div class="text-center justify-start text-zinc-300 text-2xl font-medium font-['Work_Sans'] leading-8">/month</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">For beginners. Upgrade when you're ready. No hidden fees, no contracts.</div>
+                    </div>
+                    <div class="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-zinc-700"></div>
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Beginner-friendly workouts</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Sample meal plans</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Manual progress tracking</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="w-6 h-6 relative bg-lime-950 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-lime-600"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Habit Reminders</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="w-6 h-6 relative bg-lime-950 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-lime-600"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Limited AI adjustments</div>
+                        </div>
+                    </div>
+                    <div data-color="Brand" data-hierarchy="Primary" data-is-icon-left="false" data-is-icon-right="true" data-size="lg" data-state="Default" class="self-stretch min-h-12 px-5 py-3 bg-orange-500 rounded-2xl inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Add To Cart</div>
+                        <div data-style="line" class="w-5 h-5 relative">
+                            <div class="w-4 h-4 left-[0.83px] top-[1.67px] absolute bg-white"></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-is-badge="true" data-is-mobile="False" class="flex-1 p-6 bg-zinc-950 rounded-[48px] outline outline-1 outline-offset-[-1px] outline-zinc-700 inline-flex flex-col justify-start items-start gap-8 overflow-hidden">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div class="self-stretch h-8 min-h-8 inline-flex justify-start items-center gap-4">
+                            <div class="flex-1 justify-start text-orange-500 text-lg font-bold font-['Work_Sans'] leading-6">Pro Plan</div>
+                            <div data-color="Warning" data-hierarchy="Primary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-blue-600 rounded-xl flex justify-center items-center gap-2 overflow-hidden">
+                                <div class="flex justify-center items-center gap-1.5">
+                                    <div class="text-center justify-start text-white text-sm font-medium font-['Work_Sans'] leading-5">Popular!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="self-stretch inline-flex justify-start items-end gap-1">
+                            <div class="text-center justify-start text-white text-5xl font-bold font-['Work_Sans'] leading-[56px]">$12.99</div>
+                            <div class="pb-1 flex justify-start items-end gap-2.5">
+                                <div class="text-center justify-start text-zinc-300 text-2xl font-medium font-['Work_Sans'] leading-8">/month</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">Perfect for exploring the app and building consistency.</div>
+                    </div>
+                    <div class="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-zinc-700"></div>
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Beginner-friendly workouts</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Sample meal plans</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Manual progress tracking</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Habit Reminders</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Success" data-hierarchy="Secondary" data-size="sm" class="w-6 h-6 relative bg-lime-950 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-lime-600"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Limited AI adjustments</div>
+                        </div>
+                    </div>
+                    <div data-color="Brand" data-hierarchy="Primary" data-is-icon-left="false" data-is-icon-right="true" data-size="lg" data-state="Default" class="self-stretch min-h-12 px-5 py-3 bg-orange-500 rounded-2xl inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Add To Cart</div>
+                        <div data-style="line" class="w-5 h-5 relative">
+                            <div class="w-4 h-4 left-[0.83px] top-[1.67px] absolute bg-white"></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-is-badge="false" data-is-mobile="False" class="flex-1 p-6 bg-zinc-950 rounded-[48px] outline outline-1 outline-offset-[-1px] outline-zinc-700 inline-flex flex-col justify-start items-start gap-8 overflow-hidden">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div class="self-stretch h-8 min-h-8 inline-flex justify-start items-center gap-4">
+                            <div class="flex-1 justify-start text-orange-500 text-lg font-bold font-['Work_Sans'] leading-6">Ultra Plan</div>
+                        </div>
+                        <div class="self-stretch inline-flex justify-start items-end gap-1">
+                            <div class="text-center justify-start text-white text-5xl font-bold font-['Work_Sans'] leading-[56px]">$15.99</div>
+                            <div class="pb-1 flex justify-start items-end gap-2.5">
+                                <div class="text-center justify-start text-zinc-300 text-2xl font-medium font-['Work_Sans'] leading-8">/month</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">AI-powered training & nutrition, train will full control and support</div>
+                    </div>
+                    <div class="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-zinc-700"></div>
+                    <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Beginner-friendly workouts</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Sample meal plans</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Manual progress tracking</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Habit Reminders</div>
+                        </div>
+                        <div data-color="Success" data-hierarchy="Primary" data-size="sm" class="self-stretch inline-flex justify-start items-center gap-3">
+                            <div data-color="Gray" data-hierarchy="Primary" data-size="sm" class="w-6 h-6 relative bg-lime-600 rounded-[123px]">
+                                <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute overflow-hidden">
+                                    <div class="w-3.5 h-3.5 left-0 top-0 absolute"></div>
+                                    <div class="w-2.5 h-1.5 left-[2.19px] top-[3.94px] absolute outline outline-2 outline-offset-[-1px] outline-black"></div>
+                                </div>
+                            </div>
+                            <div class="flex-1 justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-5">Limited AI adjustments</div>
+                        </div>
+                    </div>
+                    <div data-color="Brand" data-hierarchy="Primary" data-is-icon-left="false" data-is-icon-right="true" data-size="lg" data-state="Default" class="self-stretch min-h-12 px-5 py-3 bg-orange-500 rounded-2xl inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div class="justify-start text-white text-base font-semibold font-['Work_Sans'] leading-5">Add To Cart</div>
+                        <div data-style="line" class="w-5 h-5 relative">
+                            <div class="w-4 h-4 left-[0.83px] top-[1.67px] absolute bg-white"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="1" class="self-stretch px-80 py-24 bg-zinc-800 flex flex-col justify-start items-start gap-2.5 overflow-hidden">
+        <div class="w-[800px] flex flex-col justify-start items-center gap-12">
+            <div class="w-[800px] flex flex-col justify-start items-center gap-6">
+                <div data-color="Brand" data-hierarchy="Secondary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-orange-950 rounded-xl inline-flex justify-center items-center gap-2 overflow-hidden">
+                    <div class="flex justify-center items-center gap-1.5">
+                        <div class="text-center justify-start text-orange-500 text-sm font-medium font-['Work_Sans'] leading-5">FAQ</div>
+                    </div>
+                </div>
+                <div class="self-stretch text-center justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Frequently Asked Questions</div>
+                <div class="self-stretch text-center justify-start text-zinc-300 text-lg font-normal font-['Work_Sans'] leading-7">Yes! Whether you're keto, vegan, paleo, or just a picky eater — Sandow’s AI meal engine tailors your nutrition around your dietary restrictions and preferences.</div>
+            </div>
+            <div class="self-stretch flex flex-col justify-center items-start">
+                <div data-breakpoint="Desktop" data-is-badge="false" data-is-cta-button="true" data-is-end-icon="true" data-is-opened="False" data-is-start-icon="true" data-state="Default" class="self-stretch p-4 border-b border-zinc-700 inline-flex justify-start items-start gap-4 overflow-hidden">
+                    <div class="flex-1 flex justify-start items-center gap-2">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-3.5 h-5 left-[5.62px] top-[2.27px] absolute bg-zinc-300"></div>
+                        </div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">What exactly does Sandow do?</div>
+                    </div>
+                    <div data-style="line" class="w-6 h-6 relative">
+                        <div class="w-4 h-2.5 left-[3.08px] top-[7.61px] absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+                <div data-breakpoint="Desktop" data-is-badge="false" data-is-cta-button="true" data-is-end-icon="true" data-is-opened="False" data-is-start-icon="true" data-state="Default" class="self-stretch p-4 border-b border-zinc-700 inline-flex justify-start items-start gap-4 overflow-hidden">
+                    <div class="flex-1 flex justify-start items-center gap-2">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-3.5 h-5 left-[5.62px] top-[2.27px] absolute bg-zinc-300"></div>
+                        </div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Is this app for beginners or advanced users?</div>
+                    </div>
+                    <div data-style="line" class="w-6 h-6 relative">
+                        <div class="w-4 h-2.5 left-[3.08px] top-[7.61px] absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+                <div data-breakpoint="Desktop" data-is-badge="true" data-is-cta-button="false" data-is-end-icon="true" data-is-opened="True" data-is-start-icon="true" data-state="Default" class="self-stretch p-4 border-b border-zinc-700 inline-flex justify-start items-start gap-4">
+                    <div class="flex-1 inline-flex flex-col justify-center items-start gap-4">
+                        <div class="self-stretch inline-flex justify-start items-center gap-2">
+                            <div data-style="line" class="w-6 h-6 relative">
+                                <div class="w-3.5 h-5 left-[5.62px] top-[2.27px] absolute bg-zinc-300"></div>
+                            </div>
+                            <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">How is Sandow different from other fitness apps?</div>
+                            <div data-color="Brand" data-hierarchy="Primary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="sm" data-state="Default" class="px-2 py-1 bg-blue-600 rounded-lg flex justify-center items-center gap-1 overflow-hidden">
+                                <div class="flex justify-center items-center gap-1">
+                                    <div class="text-center justify-start text-white text-xs font-medium font-['Work_Sans'] leading-4">Beta</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-zinc-300 text-sm font-normal font-['Work_Sans'] leading-6">Most apps give you static programs. Sandow uses AI to adapt daily, personalizing your training, nutrition, and recovery based on real-time data. It’s like having a coach, nutritionist, and accountability partner in your pocket.</div>
+                    </div>
+                    <div data-style="line" class="w-6 h-6 relative">
+                        <div class="w-4 h-2.5 left-[3.08px] top-[7.61px] absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+                <div data-breakpoint="Desktop" data-is-badge="false" data-is-cta-button="true" data-is-end-icon="true" data-is-opened="False" data-is-start-icon="true" data-state="Default" class="self-stretch p-4 border-b border-zinc-700 inline-flex justify-start items-start gap-4 overflow-hidden">
+                    <div class="flex-1 flex justify-start items-center gap-2">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-3.5 h-5 left-[5.62px] top-[2.27px] absolute bg-zinc-300"></div>
+                        </div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Do I need any equipment?</div>
+                    </div>
+                    <div data-style="line" class="w-6 h-6 relative">
+                        <div class="w-4 h-2.5 left-[3.08px] top-[7.61px] absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+                <div data-breakpoint="Desktop" data-is-badge="false" data-is-cta-button="true" data-is-end-icon="true" data-is-opened="False" data-is-start-icon="true" data-state="Default" class="self-stretch p-4 border-b border-zinc-700 inline-flex justify-start items-start gap-4 overflow-hidden">
+                    <div class="flex-1 flex justify-start items-center gap-2">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-3.5 h-5 left-[5.62px] top-[2.27px] absolute bg-zinc-300"></div>
+                        </div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Can it support special diets?</div>
+                    </div>
+                    <div data-style="line" class="w-6 h-6 relative">
+                        <div class="w-4 h-2.5 left-[3.08px] top-[7.61px] absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="3" class="w-[1440px] px-28 py-24 bg-black flex flex-col justify-start items-start gap-2.5 overflow-hidden">
+        <div class="self-stretch flex flex-col justify-start items-start gap-16">
+            <div class="w-full max-w-[680px] flex flex-col justify-start items-start gap-6">
+                <div data-color="Brand" data-hierarchy="Secondary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-orange-950 rounded-xl inline-flex justify-center items-center gap-2 overflow-hidden">
+                    <div class="flex justify-center items-center gap-1.5">
+                        <div class="text-center justify-start text-orange-500 text-sm font-medium font-['Work_Sans'] leading-5">How It Works</div>
+                    </div>
+                </div>
+                <div class="self-stretch flex flex-col justify-start items-start gap-4">
+                    <div class="self-stretch justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Ad litora torquent per conubia nostra.</div>
+                    <div class="self-stretch justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Mi ipsum faucibus vitae aliquet nec. At tempor commodo ullamcorper a lacus. Bibendum at varius vel pharetra vel.</div>
+                </div>
+            </div>
+            <div class="self-stretch inline-flex justify-start items-center gap-8">
+                <div class="flex-1 inline-flex flex-col justify-start items-start">
+                    <div data-is-button-link="true" data-is-icon="true" data-is-mobile="False" data-is-supporting-text="true" data-type="4" class="self-stretch pr-24 inline-flex justify-start items-start gap-6">
+                        <div data-size="sm" data-style="Fill" class="w-48 self-stretch min-w-1 relative origin-top-left -rotate-90 bg-orange-500"></div>
+                        <div class="flex-1 py-8 inline-flex flex-col justify-start items-start gap-4">
+                            <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                                <div class="self-stretch justify-start text-white text-xl font-bold font-['Work_Sans'] leading-7">Tell Us About You</div>
+                                <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">Input your goals, lifestyle, and preferences through our smart fitness assessment program.</div>
+                            </div>
+                            <div data-color="Brand" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="true" data-size="md" data-state="Default" class="inline-flex justify-center items-center gap-2 overflow-hidden">
+                                <div class="justify-start text-orange-500 text-sm font-semibold font-['Work_Sans'] leading-5">Learn More</div>
+                                <div data-style="line" class="w-5 h-5 relative">
+                                    <div class="w-4 h-3.5 left-[2.50px] top-[2.57px] absolute bg-orange-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-is-button-link="true" data-is-icon="true" data-is-mobile="False" data-is-supporting-text="true" data-type="4" class="self-stretch pr-24 inline-flex justify-start items-start gap-6">
+                        <div data-size="sm" data-style="Fill" class="w-48 self-stretch min-w-1 relative origin-top-left -rotate-90 bg-zinc-700"></div>
+                        <div class="flex-1 py-8 inline-flex flex-col justify-start items-start gap-4">
+                            <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                                <div class="self-stretch justify-start text-white text-xl font-bold font-['Work_Sans'] leading-7">Train & Eat with AI</div>
+                                <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">Get personalized workout plans and AI-curated meals that evolve with you.</div>
+                            </div>
+                            <div data-color="Brand" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="true" data-size="md" data-state="Default" class="inline-flex justify-center items-center gap-2 overflow-hidden">
+                                <div class="justify-start text-orange-500 text-sm font-semibold font-['Work_Sans'] leading-5">Learn More</div>
+                                <div data-style="line" class="w-5 h-5 relative">
+                                    <div class="w-4 h-3.5 left-[2.50px] top-[2.57px] absolute bg-orange-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-is-button-link="true" data-is-icon="true" data-is-mobile="False" data-is-supporting-text="true" data-type="4" class="self-stretch pr-24 inline-flex justify-start items-start gap-6">
+                        <div data-size="sm" data-style="Fill" class="w-48 self-stretch min-w-1 relative origin-top-left -rotate-90 bg-zinc-700"></div>
+                        <div class="flex-1 py-8 inline-flex flex-col justify-start items-start gap-4">
+                            <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                                <div class="self-stretch justify-start text-white text-xl font-bold font-['Work_Sans'] leading-7">Track Progress Automatically</div>
+                                <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6">See real-time feedback, auto-adjusted routines, and insights powered by machine learning.</div>
+                            </div>
+                            <div data-color="Brand" data-hierarchy="Link" data-is-icon-left="false" data-is-icon-right="true" data-size="md" data-state="Default" class="inline-flex justify-center items-center gap-2 overflow-hidden">
+                                <div class="justify-start text-orange-500 text-sm font-semibold font-['Work_Sans'] leading-5">Learn More</div>
+                                <div data-style="line" class="w-5 h-5 relative">
+                                    <div class="w-4 h-3.5 left-[2.50px] top-[2.57px] absolute bg-orange-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 h-[592px] relative bg-zinc-800 rounded-[64px] overflow-hidden">
+                    <div class="w-96 h-[740.89px] left-[-154.38px] top-[165.86px] absolute origin-top-left rotate-[-30deg] shadow-[0px_20.25px_45px_0px_rgba(30,41,59,0.10)] shadow-[0px_81.75px_81.75px_0px_rgba(30,41,59,0.09)] shadow-[0px_183px_110.25px_0px_rgba(30,41,59,0.05)] shadow-[0px_326.25px_130.5px_0px_rgba(30,41,59,0.01)] shadow-[0px_509.25px_142.5px_0px_rgba(30,41,59,0.00)]">
+                        <div class="w-4 h-6 left-[70.81px] top-[303.41px] absolute bg-zinc-800"></div>
+                        <div class="w-[681.19px] h-[821.03px] left-[2.34px] top-[1.36px] absolute bg-black outline outline-[0.75px] outline-offset-[-0.38px] outline-zinc-700"></div>
+                        <div class="w-[668.95px] h-[808.69px] left-[8.20px] top-[7.09px] absolute bg-black outline outline-[0.75px] outline-offset-[-0.38px] outline-zinc-700"></div>
+                        <div class="w-[638.40px] h-[778.40px] left-[23.48px] top-[22.23px] absolute bg-zinc-800"></div>
+                        <div class="w-4 h-6 left-[71.40px] top-[303.40px] absolute bg-zinc-800"></div>
+                        <div class="w-8 h-12 left-[97.71px] top-[350.01px] absolute bg-zinc-800"></div>
+                        <div class="w-7 h-12 left-[98.30px] top-[350.01px] absolute bg-zinc-800"></div>
+                        <div class="w-8 h-12 left-[133.46px] top-[411.92px] absolute bg-zinc-800"></div>
+                        <div class="w-7 h-12 left-[134.05px] top-[411.91px] absolute bg-zinc-800"></div>
+                        <div class="w-[668.96px] h-[808.70px] left-[8.20px] top-[7.08px] absolute opacity-50 bg-zinc-800"></div>
+                        <div class="w-12 h-20 left-[476.91px] top-[281.04px] absolute origin-top-left -rotate-180 bg-zinc-800"></div>
+                        <div class="w-12 h-20 left-[476.31px] top-[281.04px] absolute origin-top-left rotate-180 bg-zinc-800"></div>
+                        <div class="w-[638.40px] h-[778.40px] left-[23.93px] top-[22.39px] absolute">
+                            <img class="w-[638.40px] h-[778.40px] left-0 top-0 absolute" src="https://placehold.co/638x778" />
+                        </div>
+                        <div class="w-28 h-20 left-[125.26px] top-[86.04px] absolute bg-zinc-950 border-[0.75px] border-zinc-900"></div>
+                        <div class="w-6 h-6 left-[198.37px] top-[95.58px] absolute bg-zinc-800"></div>
+                        <div class="w-3 h-3 left-[203.59px] top-[100.80px] absolute bg-zinc-700"></div>
+                    </div>
+                    <div class="w-96 h-[740.89px] left-[107px] top-[-205.89px] absolute origin-top-left rotate-[-30deg] shadow-[0px_20.25px_45px_0px_rgba(30,41,59,0.10)] shadow-[0px_81.75px_81.75px_0px_rgba(30,41,59,0.09)] shadow-[0px_183px_110.25px_0px_rgba(30,41,59,0.05)] shadow-[0px_326.25px_130.5px_0px_rgba(30,41,59,0.01)] shadow-[0px_509.25px_142.5px_0px_rgba(30,41,59,0.00)]">
+                        <div class="w-4 h-6 left-[70.81px] top-[303.41px] absolute bg-zinc-800"></div>
+                        <div class="w-[681.19px] h-[821.03px] left-[2.34px] top-[1.36px] absolute bg-black outline outline-[0.75px] outline-offset-[-0.38px] outline-zinc-700"></div>
+                        <div class="w-[668.95px] h-[808.69px] left-[8.20px] top-[7.09px] absolute bg-black outline outline-[0.75px] outline-offset-[-0.38px] outline-zinc-700"></div>
+                        <div class="w-[638.40px] h-[778.40px] left-[23.48px] top-[22.23px] absolute bg-zinc-800"></div>
+                        <div class="w-4 h-6 left-[71.40px] top-[303.40px] absolute bg-zinc-800"></div>
+                        <div class="w-8 h-12 left-[97.71px] top-[350.01px] absolute bg-zinc-800"></div>
+                        <div class="w-7 h-12 left-[98.30px] top-[350.01px] absolute bg-zinc-800"></div>
+                        <div class="w-8 h-12 left-[133.46px] top-[411.92px] absolute bg-zinc-800"></div>
+                        <div class="w-7 h-12 left-[134.05px] top-[411.91px] absolute bg-zinc-800"></div>
+                        <div class="w-[668.96px] h-[808.70px] left-[8.20px] top-[7.08px] absolute opacity-50 bg-zinc-800"></div>
+                        <div class="w-12 h-20 left-[476.91px] top-[281.04px] absolute origin-top-left -rotate-180 bg-zinc-800"></div>
+                        <div class="w-12 h-20 left-[476.31px] top-[281.04px] absolute origin-top-left rotate-180 bg-zinc-800"></div>
+                        <div class="w-[638.40px] h-[778.40px] left-[23.93px] top-[22.39px] absolute">
+                            <img class="w-[638.40px] h-[778.40px] left-0 top-0 absolute" src="https://placehold.co/638x778" />
+                        </div>
+                        <div class="w-28 h-20 left-[125.26px] top-[86.04px] absolute bg-zinc-950 border-[0.75px] border-zinc-900"></div>
+                        <div class="w-6 h-6 left-[198.37px] top-[95.58px] absolute bg-zinc-800"></div>
+                        <div class="w-3 h-3 left-[203.59px] top-[100.80px] absolute bg-zinc-700"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="8" class="self-stretch px-28 py-16 bg-orange-500 flex flex-col justify-start items-start gap-2.5 overflow-hidden">
+        <div class="self-stretch inline-flex justify-start items-center gap-24">
+            <div class="flex-1 h-[525px] relative">
+                <div class="w-96 h-[871px] left-[66.13px] top-0 absolute shadow-[0px_23.806243896484375px_52.902767181396484px_0px_rgba(30,41,59,0.10)] shadow-[0px_96.106689453125px_96.106689453125px_0px_rgba(30,41,59,0.09)] shadow-[0px_215.13792419433594px_129.61178588867188px_0px_rgba(30,41,59,0.05)] shadow-[0px_383.5450439453125px_153.41802978515625px_0px_rgba(30,41,59,0.01)] shadow-[0px_598.6829833984375px_167.5254364013672px_0px_rgba(30,41,59,0.00)]">
+                    <div class="w-[3.17px] h-8 left-0 top-[166.49px] absolute bg-zinc-800"></div>
+                    <div class="w-96 h-[871px] left-[3.17px] top-0 absolute bg-black outline outline-1 outline-offset-[-0.44px] outline-zinc-700"></div>
+                    <div class="w-96 h-[860.25px] left-[8.38px] top-[4.78px] absolute bg-black outline outline-1 outline-offset-[-0.44px] outline-zinc-700"></div>
+                    <div class="w-96 h-[834.49px] left-[21.68px] top-[17.66px] absolute bg-zinc-800"></div>
+                    <div class="w-[2.38px] h-8 left-[0.80px] top-[166.49px] absolute bg-zinc-800"></div>
+                    <div class="w-[3.17px] h-16 left-0 top-[229.75px] absolute bg-zinc-800"></div>
+                    <div class="w-[2.38px] h-16 left-[0.80px] top-[229.75px] absolute bg-zinc-800"></div>
+                    <div class="w-[3.17px] h-16 left-0 top-[313.78px] absolute bg-zinc-800"></div>
+                    <div class="w-[2.38px] h-16 left-[0.80px] top-[313.78px] absolute bg-zinc-800"></div>
+                    <div class="w-96 h-[860.26px] left-[8.38px] top-[4.77px] absolute opacity-50 bg-zinc-800"></div>
+                    <div class="w-[3.18px] h-28 left-[428.20px] top-[379.67px] absolute origin-top-left -rotate-180 bg-zinc-800"></div>
+                    <div class="w-[2.38px] h-28 left-[427.38px] top-[379.67px] absolute origin-top-left rotate-180 bg-zinc-800"></div>
+                    <div class="w-96 h-[834.49px] left-[22.04px] top-[18.08px] absolute">
+                        <img class="w-96 h-[834.49px] left-0 top-0 absolute" src="https://placehold.co/385x834" />
+                    </div>
+                    <div class="w-32 h-9 left-[153.30px] top-[28.98px] absolute bg-zinc-950 border-1 border-zinc-900"></div>
+                    <div class="w-5 h-5 left-[247.94px] top-[36.98px] absolute bg-zinc-800"></div>
+                    <div class="w-2.5 h-2.5 left-[252.43px] top-[41.47px] absolute bg-zinc-700"></div>
+                </div>
+            </div>
+            <div class="flex-1 inline-flex flex-col justify-center items-start gap-12">
+                <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                    <div class="self-stretch justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Experience Sandow risk-free and see real results.</div>
+                    <div class="self-stretch justify-start text-white text-lg font-normal font-['Work_Sans'] leading-7">Join thousands using Sandow to train smarter, eat better, and live stronger — guided by AI, built for real life.</div>
+                </div>
+                <div class="inline-flex justify-start items-start gap-2">
+                    <div data-size="lg" data-store="App Store" data-style="White outline" class="w-32 h-11 relative rounded-lg outline outline-1 outline-offset-[-1px] outline-white">
+                        <div class="w-20 h-4 left-[37.90px] top-[19.55px] absolute bg-white"></div>
+                        <div class="w-20 h-2 left-[39.22px] top-[9.26px] absolute bg-white"></div>
+                        <div class="w-5 h-6 left-[10.97px] top-[9.59px] absolute bg-white"></div>
+                    </div>
+                    <div data-size="lg" data-store="Google Play" data-style="White outline" class="w-36 h-11 relative rounded-lg outline outline-1 outline-offset-[-1px] outline-white overflow-hidden">
+                        <div class="w-24 h-5 left-[45.15px] top-[18.75px] absolute bg-white"></div>
+                        <div class="w-11 h-1.5 left-[45.49px] top-[7.55px] absolute bg-white outline outline-[0.20px] outline-offset-[-0.10px] outline-white"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="1" class="self-stretch px-28 py-24 bg-zinc-800 flex flex-col justify-start items-start gap-16 overflow-hidden">
+        <div class="w-[1216px] inline-flex justify-between items-center">
+            <div class="w-[696px] max-w-[696px] inline-flex flex-col justify-start items-start gap-5">
+                <div data-color="Brand" data-hierarchy="Primary" data-is-dot="false" data-is-icon-left="false" data-is-icon-right="false" data-size="lg" data-state="Default" class="px-3 py-1.5 bg-blue-600 rounded-xl inline-flex justify-center items-center gap-2 overflow-hidden">
+                    <div class="flex justify-center items-center gap-1.5">
+                        <div class="text-center justify-start text-white text-sm font-medium font-['Work_Sans'] leading-5">News</div>
+                    </div>
+                </div>
+                <div class="self-stretch justify-start text-white text-4xl font-bold font-['Work_Sans'] leading-10">Learn, Grow, and Stay Informed</div>
+                <div class="self-stretch justify-start text-zinc-300 text-xl font-normal font-['Work_Sans'] leading-8">Explore fresh perspectives on health, behavior, and technology — curated by experts.</div>
+            </div>
+            <div data-color="Brand" data-hierarchy="Primary" data-is-icon-left="false" data-is-icon-right="true" data-size="xl" data-state="Default" class="px-6 py-4 bg-orange-500 rounded-2xl flex justify-center items-center gap-3 overflow-hidden">
+                <div class="justify-start text-white text-lg font-semibold font-['Work_Sans'] leading-6">View All Posts</div>
+                <div data-style="line" class="w-6 h-6 relative">
+                    <div class="w-5 h-4 left-[3px] top-[3.08px] absolute bg-white"></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1216px] inline-flex justify-start items-start gap-8">
+            <div data-is-button-icon="true" data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-end items-start gap-5 overflow-hidden">
+                <div class="self-stretch h-56 relative rounded-3xl overflow-hidden">
+                    <div data-color="Black" data-hierarchy="Primary" data-size="lg" data-state="Default" class="w-12 h-12 p-4 left-[324px] top-[160px] absolute bg-white/20 rounded-full outline outline-1 outline-offset-[-1px] outline-white backdrop-blur-lg inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-4 h-4 left-[4.29px] top-[4.24px] absolute bg-white border-white"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                    <div class="self-stretch justify-start text-orange-500 text-sm font-bold font-['Work_Sans'] leading-5 line-clamp-1">AI & Health</div>
+                    <div class="self-stretch justify-start text-white text-2xl font-bold font-['Work_Sans'] leading-8 line-clamp-1">How AI is Revolutionizing Personal Health</div>
+                    <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6 line-clamp-2">From diagnostics to daily coaching, AI is shaping the future of healthcare. Here’s what you need to know.</div>
+                </div>
+                <div class="self-stretch inline-flex justify-start items-center gap-2">
+                    <img data-indicator="None" data-size="md" data-type="Image" class="w-10 h-10 relative rounded-[76.88px]" src="https://placehold.co/40x40" />
+                    <div class="flex-1 justify-start text-zinc-300 text-sm font-bold font-['Work_Sans'] leading-5">Dr. Elena Marquez</div>
+                    <div class="justify-start text-zinc-400 text-sm font-medium font-['Work_Sans'] leading-5">5min read</div>
+                </div>
+            </div>
+            <div data-is-button-icon="true" data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-end items-start gap-5 overflow-hidden">
+                <div class="self-stretch h-56 relative rounded-3xl overflow-hidden">
+                    <div data-color="Black" data-hierarchy="Primary" data-size="lg" data-state="Default" class="w-12 h-12 p-4 left-[324px] top-[160px] absolute bg-white/20 rounded-full outline outline-1 outline-offset-[-1px] outline-white backdrop-blur-lg inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-4 h-4 left-[4.29px] top-[4.24px] absolute bg-white border-white"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                    <div class="self-stretch justify-start text-orange-500 text-sm font-bold font-['Work_Sans'] leading-5 line-clamp-1">Habit</div>
+                    <div class="self-stretch justify-start text-white text-2xl font-bold font-['Work_Sans'] leading-8 line-clamp-1">7 Tiny Habits That Lead to Big Change</div>
+                    <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6 line-clamp-2">Sustainable health isn’t about willpower — it’s about system design. Start with these small shifts.</div>
+                </div>
+                <div class="self-stretch inline-flex justify-start items-center gap-2">
+                    <img data-indicator="None" data-size="md" data-type="Image" class="w-10 h-10 relative rounded-[76.88px]" src="https://placehold.co/40x40" />
+                    <div class="flex-1 justify-start text-zinc-300 text-sm font-bold font-['Work_Sans'] leading-5">Chris D.</div>
+                    <div class="justify-start text-zinc-400 text-sm font-medium font-['Work_Sans'] leading-5">5min read</div>
+                </div>
+            </div>
+            <div data-is-button-icon="true" data-is-mobile="False" data-type="1" class="flex-1 inline-flex flex-col justify-end items-start gap-5 overflow-hidden">
+                <div class="self-stretch h-56 relative rounded-3xl overflow-hidden">
+                    <div data-color="Black" data-hierarchy="Primary" data-size="lg" data-state="Default" class="w-12 h-12 p-4 left-[324px] top-[160px] absolute bg-white/20 rounded-full outline outline-1 outline-offset-[-1px] outline-white backdrop-blur-lg inline-flex justify-center items-center gap-2.5 overflow-hidden">
+                        <div data-style="line" class="w-6 h-6 relative">
+                            <div class="w-4 h-4 left-[4.29px] top-[4.24px] absolute bg-white border-white"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                    <div class="self-stretch justify-start text-orange-500 text-sm font-bold font-['Work_Sans'] leading-5 line-clamp-1">Wellness</div>
+                    <div class="self-stretch justify-start text-white text-2xl font-bold font-['Work_Sans'] leading-8 line-clamp-1">The Science of Sleep Tracking</div>
+                    <div class="self-stretch justify-start text-zinc-300 text-base font-normal font-['Work_Sans'] leading-6 line-clamp-2">Learn how accurate sleep data can unlock better energy, focus, and mood — and how Asklepios helps.</div>
+                </div>
+                <div class="self-stretch inline-flex justify-start items-center gap-2">
+                    <img data-indicator="None" data-size="md" data-type="Image" class="w-10 h-10 relative rounded-[76.88px]" src="https://placehold.co/40x40" />
+                    <div class="flex-1 justify-start text-zinc-300 text-sm font-bold font-['Work_Sans'] leading-5">Rachel K.</div>
+                    <div class="justify-start text-zinc-400 text-sm font-medium font-['Work_Sans'] leading-5">5min read</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-is-mobile="False" data-type="3" class="self-stretch px-28 py-24 bg-black flex flex-col justify-start items-center gap-2.5 overflow-hidden">
+        <div class="w-[1216px] flex flex-col justify-start items-start gap-16">
+            <div class="self-stretch inline-flex justify-between items-start">
+                <div class="w-[600px] inline-flex flex-col justify-start items-start gap-10">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                        <div data-is-dark-mode="True" class="inline-flex justify-start items-center gap-1">
+                            <div data-type="Plain - Brand" class="w-8 h-8 flex justify-center items-center gap-[5px]">
+                                <div class="w-6 h-6 bg-orange-500 shadow-[0px_4px_8px_0px_rgba(249,115,22,0.25)] outline outline-[0.25px] outline-orange-500"></div>
+                            </div>
+                            <div class="w-24 pb-1 inline-flex flex-col justify-start items-start gap-2.5">
+                                <div class="w-24 h-5 bg-white"></div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-start text-white text-xl font-normal font-['Work_Sans'] leading-8">Train with purpose. Eat with confidence. Feel the difference with Sandow today.</div>
+                    </div>
+                    <div class="inline-flex justify-center items-start gap-8">
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Homepage</div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Products</div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Services</div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">About Us</div>
+                        <div class="justify-start text-white text-base font-bold font-['Work_Sans'] leading-5">Contact Us</div>
+                    </div>
+                </div>
+                <div class="flex justify-start items-start gap-3">
+                    <div data-size="lg" data-store="Google Play" data-style="Brand" class="w-36 h-11 relative bg-black rounded-lg outline outline-1 outline-offset-[-1px] outline-zinc-500 overflow-hidden">
+                        <div class="w-24 h-5 left-[45.15px] top-[18.75px] absolute bg-white"></div>
+                        <div class="w-11 h-1.5 left-[45.49px] top-[7.55px] absolute bg-white outline outline-[0.20px] outline-offset-[-0.10px] outline-white"></div>
+                        <div class="w-3.5 h-7 left-[10.97px] top-[8.21px] absolute bg-gradient-to-bl from-sky-500 via-sky-500 to-cyan-400"></div>
+                        <div class="w-3 h-2.5 left-[25.19px] top-[17.30px] absolute bg-gradient-to-l from-yellow-400 via-yellow-500 to-amber-500"></div>
+                        <div class="w-5 h-3.5 left-[11.48px] top-[22px] absolute bg-gradient-to-bl from-red-500 to-pink-700 shadow-[inset_0px_-0.15000000596046448px_0px_0px_rgba(0,0,0,0.08)]"></div>
+                        <div class="w-5 h-3.5 left-[11.48px] top-[7.86px] absolute bg-gradient-to-br from-green-500 via-green-500 to-emerald-500"></div>
+                    </div>
+                    <div data-size="lg" data-store="App Store" data-style="Brand" class="w-32 h-11 relative bg-black rounded-lg outline outline-1 outline-offset-[-1px] outline-zinc-500">
+                        <div class="w-20 h-4 left-[37.90px] top-[19.55px] absolute bg-white"></div>
+                        <div class="w-20 h-2 left-[39.22px] top-[9.26px] absolute bg-white"></div>
+                        <div class="w-5 h-6 left-[10.97px] top-[9.59px] absolute bg-white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="self-stretch pt-8 border-t border-zinc-700 inline-flex justify-start items-center gap-10">
+                <div class="flex-1 justify-start text-zinc-400 text-sm font-medium font-['Work_Sans'] leading-5">Copyright 2029© strangehelix.bio, All Rights Reserved.</div>
+                <div class="flex justify-start items-start gap-6">
+                    <div data-platform="Facebook" data-style="Dark" class="w-6 h-6 relative overflow-hidden">
+                        <div class="w-6 h-6 left-0 top-0 absolute bg-zinc-400"></div>
+                    </div>
+                    <div data-platform="X (Twitter)" data-style="Dark" class="w-6 h-6 relative overflow-hidden">
+                        <div class="w-5 h-5 left-[1px] top-[1.90px] absolute bg-zinc-400"></div>
+                    </div>
+                    <div data-platform="Instagram" data-style="Dark" class="w-6 h-6 relative overflow-hidden">
+                        <div class="w-6 h-6 left-0 top-0 absolute bg-zinc-400"></div>
+                        <div class="w-3 h-3 left-[5.84px] top-[5.84px] absolute bg-zinc-400"></div>
+                        <div class="w-[2.88px] h-[2.88px] left-[16.97px] top-[4.15px] absolute bg-zinc-400"></div>
+                    </div>
+                    <div data-platform="LinkedIn" data-style="Dark" class="w-6 h-6 relative overflow-hidden">
+                        <div class="w-6 h-6 left-0 top-0 absolute bg-zinc-400"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
