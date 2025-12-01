@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -17,18 +18,18 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Kurse</h3>
             <ul className="mt-4 space-y-4">
-              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI-Grundlagen</a></li>
-              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI im Beruf</a></li>
-              <li><a href="#kurse" className="text-base text-gray-50 hover:text-primary">KI-Automatisierung</a></li>
+              <li><Link href="/ki-grundlagen" className="text-base text-gray-50 hover:text-primary">KI-Grundlagen</Link></li>
+              <li><Link href="/ki-im-beruf" className="text-base text-gray-50 hover:text-primary">KI im Beruf</Link></li>
+              <li><Link href="/ki-automatisierung" className="text-base text-gray-50 hover:text-primary">KI-Automatisierung</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Rechtliches</h3>
             <ul className="mt-4 space-y-4">
-              <li><a href="#" className="text-base text-gray-50 hover:text-primary">Impressum</a></li>
-              <li><a href="#" className="text-base text-gray-50 hover:text-primary">Datenschutz</a></li>
-              <li><a href="#" className="text-base text-gray-50 hover:text-primary">AGB</a></li>
+              <li><Link href="/impressum" className="text-base text-gray-50 hover:text-primary">Impressum</Link></li>
+              <li><Link href="/datenschutz" className="text-base text-gray-50 hover:text-primary">Datenschutz</Link></li>
+              <li><Link href="/agb" className="text-base text-gray-50 hover:text-primary">AGB</Link></li>
             </ul>
           </div>
 

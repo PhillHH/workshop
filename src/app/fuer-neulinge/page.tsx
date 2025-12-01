@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { CheckIcon, SproutIcon } from '../../components/Icons';
-import CourseCard from '../../components/CourseCard';
+import { SproutIcon, CheckIcon } from '@/components/Icons';
+import CourseCard from '@/components/CourseCard';
 
-const Neulinge = () => {
+export default function Neulinge() {
   return (
     <div>
       {/* Hero Section */}
@@ -100,5 +99,3 @@ const Neulinge = () => {
     </div>
   );
 };
-
-export default Neulinge;

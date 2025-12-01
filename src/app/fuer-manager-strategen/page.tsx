@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { CheckIcon, GearsIcon } from '../../components/Icons';
-import CourseCard from '../../components/CourseCard';
+import { GearsIcon, CheckIcon } from '@/components/Icons';
+import CourseCard from '@/components/CourseCard';
 
-const Manager = () => {
+export default function Manager() {
   return (
     <div>
       {/* Hero Section */}
@@ -100,5 +99,3 @@ const Manager = () => {
     </div>
   );
 };
-
-export default Manager;

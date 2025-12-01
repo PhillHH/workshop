@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { CheckIcon, RocketIcon } from '../../components/Icons';
-import CourseCard from '../../components/CourseCard';
+import { RocketIcon, CheckIcon } from '@/components/Icons';
+import CourseCard from '@/components/CourseCard';
 
-const Berufstaetige = () => {
+export default function Berufstaetige() {
   return (
     <div>
       {/* Hero Section */}
@@ -101,5 +100,3 @@ const Berufstaetige = () => {
     </div>
   );
 };
-
-export default Berufstaetige;

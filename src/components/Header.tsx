@@ -1,5 +1,6 @@
+'use client';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 // Icons
 const MenuIcon = () => (
@@ -14,11 +15,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Kurse', href: '/#kurse' }, // Anchor links on home need / prefix
+    { name: 'Kurse', href: '/#kurse' },
     { name: 'Zielgruppen', href: '/#zielgruppen' },
-    { name: 'Wissen', href: '/wissen' }, // New Blog
-    { name: 'Referenzen', href: '/referenzen' }, // New Testimonials
-    { name: 'Über Uns', href: '/ueber-uns' }, // New About
+    { name: 'Wissen', href: '/wissen' },
+    { name: 'Referenzen', href: '/referenzen' },
+    { name: 'Über Uns', href: '/ueber-uns' },
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -29,7 +30,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-bold text-white tracking-tight">
+            <Link href="/" className="text-2xl font-bold text-white tracking-tight">
               Growento<span className="text-primary">.AI</span>
             </Link>
           </div>
@@ -37,30 +38,15 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navLinks.map((link) => {
-               // If it's an anchor link (starts with /#), use a or Link with hash?
-               // Since we are using react-router-dom, HashLink is often better, but for now simple Link works if we handle scroll manually or just rely on native behavior
-               // The issue is if we are on /blog and click /#kurse, it goes to /#kurse which is Home.
-               // However, standard <a href> causes full reload sometimes or behaves weirdly in SPA.
-               // Best practice without extra libs: Use Link for internal routes.
-               // But for hash links on home, we might need a mix.
-               // Simplest: Check if it starts with /#
-
                const isHashLink = link.href.startsWith('/#');
-               if (isHashLink) {
-                 return (
-                   <a
-                     key={link.name}
-                     href={link.href}
-                     className="text-gray-30 hover:text-primary transition-colors text-sm font-semibold"
-                   >
-                     {link.name}
-                   </a>
-                 )
-               }
+               // Next.js Link handles hashes correctly, but for strictly client-side navigation within same page it might need attention if not on home.
+               // Next.js Link: "If you're linking to an id on the same page, Next.js will scroll to that id."
+               // If linking to id on another page, it navigates then scrolls.
+
                return (
                 <Link
                   key={link.name}
-                  to={link.href}
+                  href={link.href}
                   className="text-gray-30 hover:text-primary transition-colors text-sm font-semibold"
                 >
                   {link.name}
@@ -71,12 +57,12 @@ const Header = () => {
 
           {/* CTA Button Desktop */}
           <div className="hidden md:flex items-center">
-            <a
+            <Link
               href="/#kurse"
               className="bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-md text-sm font-semibold transition-colors"
             >
               Kurs buchen
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -96,23 +82,10 @@ const Header = () => {
         <div className="md:hidden bg-gray-90 border-b border-gray-80">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => {
-               const isHashLink = link.href.startsWith('/#');
-               if (isHashLink) {
-                 return (
-                   <a
-                     key={link.name}
-                     href={link.href}
-                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-30 hover:text-white hover:bg-gray-80"
-                     onClick={() => setIsMenuOpen(false)}
-                   >
-                     {link.name}
-                   </a>
-                 )
-               }
                return (
                 <Link
                   key={link.name}
-                  to={link.href}
+                  href={link.href}
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-30 hover:text-white hover:bg-gray-80"
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -120,13 +93,13 @@ const Header = () => {
                 </Link>
               );
             })}
-            <a
+            <Link
               href="/#kurse"
               className="block w-full text-center mt-4 bg-primary hover:bg-primary-dark text-white px-5 py-3 rounded-md text-base font-semibold"
               onClick={() => setIsMenuOpen(false)}
             >
               Kurs buchen
-            </a>
+            </Link>
           </div>
         </div>
       )}
