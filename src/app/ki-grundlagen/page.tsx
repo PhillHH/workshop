@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { CheckIcon, ChevronDownIcon } from '../../components/Icons';
-import AccordionItem from '../../components/AccordionItem';
+import Link from 'next/link';
+import { CheckIcon } from '@/components/Icons';
+import AccordionItem from '@/components/AccordionItem';
 
-const KIGrundlagen = () => {
+export default function KIGrundlagen() {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Hero */}
@@ -29,7 +29,7 @@ const KIGrundlagen = () => {
                 </div>
               </div>
               <Link
-                to="/checkout?course=grundlagen"
+                href="/checkout?course=grundlagen"
                 className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105"
               >
                 Jetzt Platz sichern
@@ -63,13 +63,13 @@ const KIGrundlagen = () => {
 
             <div className="bg-gray-90 p-8 rounded-2xl border border-gray-80">
               <h3 className="text-xl font-bold text-white mb-4">Modul 3: Praxis im Alltag</h3>
-              <p className="text-gray-30">Wir üben gemeinsam an echten Beispielen:
+              <div className="text-gray-30">Wir üben gemeinsam an echten Beispielen:
                 <ul className="list-disc ml-5 mt-2 space-y-1">
                   <li>E-Mails formulieren und korrigieren</li>
                   <li>Reiseplanung und Kochrezepte</li>
                   <li>Zusammenfassen von langen Texten</li>
                 </ul>
-              </p>
+              </div>
             </div>
 
             <div className="bg-gray-90 p-8 rounded-2xl border border-gray-80">
@@ -108,7 +108,7 @@ const KIGrundlagen = () => {
                        <p className="text-gray-30 text-sm leading-relaxed">
                           Alex begleitet seit 5 Jahren Menschen in die digitale Welt. Seine Stärke ist es, komplexe Technik einfach und mit Spaß zu vermitteln.
                        </p>
-                       <Link to="/trainer" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</Link>
+                       <Link href="/ueber-uns" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</Link>
                     </div>
                  </div>
 
@@ -148,7 +148,7 @@ const KIGrundlagen = () => {
       {/* Sticky Bottom CTA for Mobile (Optional) or repeated CTA */}
       <div className="py-12 text-center">
          <Link
-            to="/checkout?course=grundlagen"
+            href="/checkout?course=grundlagen"
             className="inline-block bg-primary hover:bg-primary-dark text-white px-10 py-5 rounded-lg text-xl font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105"
           >
             Jetzt anmelden für 149 €
@@ -157,5 +157,3 @@ const KIGrundlagen = () => {
     </div>
   );
 };
-
-export default KIGrundlagen;

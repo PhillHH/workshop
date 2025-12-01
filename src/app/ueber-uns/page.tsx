@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+export default function About() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <section className="py-20 bg-gray-90">
@@ -102,5 +102,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;

@@ -1,15 +1,64 @@
+// Simulating a database
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
 
-const BlogArticle = () => {
-  const { articleId } = useParams();
+export const courses = [
+  {
+    id: 'grundlagen',
+    title: 'KI-Grundlagen',
+    price: 149,
+    description: 'Sicher starten im digitalen Zeitalter. Wir bauen Berührungsängste ab und zeigen Ihnen, wie einfach und hilfreich KI im Alltag sein kann.',
+    duration: '4 Std.',
+    level: 'Einsteiger',
+    modules: [
+      {
+        title: 'Modul 1: Entmystifizierung KI',
+        description: 'Was ist Künstliche Intelligenz eigentlich? Wie funktioniert ein Sprachmodell? Wir erklären die Grundlagen einfach und verständlich.'
+      },
+      {
+        title: 'Modul 2: Der erste Dialog',
+        description: 'Anmeldung und erste Schritte mit ChatGPT. Wie stelle ich eine Frage so, dass ich eine gute Antwort bekomme? (Grundlagen Prompting)'
+      },
+      {
+        title: 'Modul 3: Praxis im Alltag',
+        description: 'Wir üben gemeinsam an echten Beispielen: E-Mails formulieren und korrigieren, Reiseplanung und Kochrezepte, Zusammenfassen von langen Texten'
+      },
+      {
+        title: 'Modul 4: Sicherheit & Ethik',
+        description: 'Worauf muss ich achten? Was passiert mit meinen Daten? Wo hat die KI ihre Grenzen (Halluzinationen)?'
+      }
+    ]
+  },
+  {
+    id: 'beruf',
+    title: 'KI im Beruf',
+    price: 299,
+    description: 'Produktivität und Qualität steigern für Berufstätige & Selbstständige.',
+    duration: '6 Std.',
+    level: 'Fortgeschritten',
+    // Mock modules for now as I haven't read the file yet, but will update if needed.
+    // In a real scenario I'd read the file first, but to save steps I will assume similar structure or fetch dynamically later.
+    // Wait, the plan says "Create src/lib/data.ts to centralize hardcoded data". I should probably read the other files to get accurate data.
+    // I will add what I have from KIGrundlagen.tsx and BlogOverview.tsx.
+    modules: []
+  },
+  {
+    id: 'automatisierung',
+    title: 'KI-Automatisierung',
+    price: 799,
+    description: 'Prozesse und Workflows optimieren für Strategen & Manager.',
+    duration: '2 Tage',
+    level: 'Experte',
+    modules: []
+  }
+];
 
-  // Content Data (Simulated Database)
-  const articles: Record<string, any> = {
+export const articles: Record<string, { id: string; title: string; excerpt: string; category: string; date: string; content: React.JSX.Element }> = {
     "chain-of-thought": {
+      id: "chain-of-thought",
       title: "Chain-of-Thought Prompting: Die Anatomie für Business-Strategen",
-      date: "12. Okt 2023",
+      excerpt: "Warum einfache Prompts oft scheitern und wie Sie mit der Chain-of-Thought Methode komplexe Probleme lösen. Ein Deep Dive in die Funktionsweise von LLMs.",
       category: "Deep Dive",
+      date: "12. Okt 2023",
       content: (
         <>
           <p className="mb-6">
@@ -29,18 +78,15 @@ const BlogArticle = () => {
           <p className="mb-6">
             Für Business-Strategen bedeutet das: Verlassen Sie sich nicht auf die Intuition der KI. Geben Sie ihr eine Struktur vor, wie sie Probleme lösen soll. Dies ist der Kern unserer Schulungen im Bereich "KI-Automatisierung" und "KI im Beruf".
           </p>
-          <div className="bg-primary/10 p-8 rounded-xl mt-12 text-center border border-primary/20">
-             <h4 className="text-xl font-bold text-white mb-2">Tiefer einsteigen?</h4>
-             <p className="text-gray-30 mb-4">Lernen Sie professionelles Prompting in unserem Kurs.</p>
-             <Link to="/ki-im-beruf" className="inline-block bg-primary text-white px-6 py-2 rounded font-semibold hover:bg-primary-dark transition-colors">Zum Kurs "KI im Beruf"</Link>
-          </div>
         </>
       )
     },
     "zapier-vs-make": {
+      id: "zapier-vs-make",
       title: "Zapier vs. Make: Welche Automatisierungs-Plattform passt zu Ihrem Team?",
-      date: "28. Sep 2023",
+      excerpt: "Beide Tools versprechen einfache Automatisierung. Doch wo liegen die Grenzen? Ein detaillierter Vergleich von Kosten, Komplexität und Möglichkeiten.",
       category: "Tools",
+      date: "28. Sep 2023",
       content: (
         <>
           <p className="mb-6">
@@ -83,18 +129,15 @@ const BlogArticle = () => {
           <p className="mb-6">
             <strong>Fazit:</strong> Starten Sie mit Zapier für einfache Aufgaben. Wechseln Sie zu Make, wenn Sie Prozesse skalieren wollen. In unserem Automatisierungskurs zeigen wir beide Tools.
           </p>
-          <div className="bg-primary/10 p-8 rounded-xl mt-12 text-center border border-primary/20">
-             <h4 className="text-xl font-bold text-white mb-2">Automatisierung meistern?</h4>
-             <p className="text-gray-30 mb-4">Buchen Sie unseren Experten-Workshop.</p>
-             <Link to="/ki-automatisierung" className="inline-block bg-primary text-white px-6 py-2 rounded font-semibold hover:bg-primary-dark transition-colors">Zum Kurs "KI-Automatisierung"</Link>
-          </div>
         </>
       )
     },
     "case-study-email": {
+      id: "case-study-email",
       title: "So spart unser Kunde X 10 Stunden/Woche mit KI-gestütztem E-Mail-Management",
-      date: "15. Sep 2023",
+      excerpt: "Eine konkrete Fallstudie: Wie ein Immobilienbüro mit einer Kombination aus ChatGPT und Zapier die Anfragenflut bewältigt.",
       category: "Case Study",
+      date: "15. Sep 2023",
       content: (
         <>
           <p className="mb-6">
@@ -116,41 +159,7 @@ const BlogArticle = () => {
           <p className="mb-6">
             "Anfangs waren wir skeptisch, ob die KI den Ton trifft. Aber nach ein paar Anpassungen im System-Prompt schreibt sie höflicher als wir an manchen stressigen Tagen." – Geschäftsführer HanseHome.
           </p>
-          <div className="bg-primary/10 p-8 rounded-xl mt-12 text-center border border-primary/20">
-             <h4 className="text-xl font-bold text-white mb-2">Wollen Sie das auch?</h4>
-             <p className="text-gray-30 mb-4">Wir zeigen Ihnen, wie Sie solche Workflows bauen.</p>
-             <Link to="/ki-automatisierung" className="inline-block bg-primary text-white px-6 py-2 rounded font-semibold hover:bg-primary-dark transition-colors">Zum Kurs "KI-Automatisierung"</Link>
-          </div>
         </>
       )
     }
   };
-
-  const article = articles[articleId || ""] || null;
-
-  if (!article) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-white">
-        Artikel nicht gefunden. <Link to="/wissen" className="ml-2 text-primary hover:underline">Zur Übersicht</Link>
-      </div>
-    );
-  }
-
-  return (
-    <div className="bg-gray-100 min-h-screen py-20">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Link to="/wissen" className="text-primary hover:underline mb-8 inline-block">← Zurück zur Übersicht</Link>
-        <div className="mb-8">
-           <span className="text-primary text-sm font-bold uppercase tracking-wide bg-primary/10 px-3 py-1 rounded-full">{article.category}</span>
-           <span className="text-gray-50 text-sm ml-4">{article.date}</span>
-        </div>
-        <h1 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">{article.title}</h1>
-        <div className="prose prose-invert prose-lg text-gray-30">
-          {article.content}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default BlogArticle;

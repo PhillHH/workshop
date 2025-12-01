@@ -1,7 +1,7 @@
 import React from 'react';
-import { PlayIcon } from '../components/Icons';
+import { PlayIcon } from '@/components/Icons';
 
-const Testimonials = () => {
+export default function Testimonials() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <section className="py-20 bg-gray-90">
@@ -115,5 +115,3 @@ const Testimonials = () => {
     </div>
   );
 };
-
-export default Testimonials;

@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
-import { CheckIcon } from '../components/Icons';
+'use client';
+import React, { useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
+import { CheckIcon } from '@/components/Icons';
 
-const Checkout = () => {
-  const [searchParams] = useSearchParams();
+const CheckoutContent = () => {
+  const searchParams = useSearchParams();
   const courseParam = searchParams.get('course');
 
   const [formData, setFormData] = useState({
@@ -73,7 +75,7 @@ const Checkout = () => {
             <br/><br/>
             Sie erhalten in Kürze eine E-Mail mit der Rechnung und den Überweisungsdaten an <strong>{formData.email}</strong>.
           </p>
-          <Link to="/" className="inline-block bg-gray-80 text-white px-6 py-3 rounded-lg hover:bg-gray-70 transition-colors">
+          <Link href="/" className="inline-block bg-gray-80 text-white px-6 py-3 rounded-lg hover:bg-gray-70 transition-colors">
             Zurück zur Startseite
           </Link>
         </div>
@@ -241,4 +243,10 @@ const Checkout = () => {
   );
 };
 
-export default Checkout;
+export default function Checkout() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CheckoutContent />
+    </Suspense>
+  );
+}
