@@ -9,7 +9,11 @@ body,
 }
 
 body {
-  @apply bg-black text-white antialiased;
+  @apply bg-gray-100 text-gray-10 antialiased;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
