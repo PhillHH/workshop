@@ -2,6 +2,14 @@
 
 Single-Page-Landing für die **Growento AI Workshops** in Hamburg, umgesetzt mit **React**, **TypeScript**, **Vite** und **Tailwind CSS**. Die Anwendung wird für die Produktion in einem **Docker-Container** ausgeliefert, der einen Nginx-Server beinhaltet.
 
+## Installation & Start
+
+Bitte beachten Sie die Datei [StartApp.md](./StartApp.md) für detaillierte Anweisungen zur Installation und zum Start der Anwendung (standardmäßig auf Port **8026**).
+
+Kurzfassung:
+- **Windows**: `start.bat` ausführen.
+- **Linux/Mac**: `start.sh` ausführen.
+
 ## Voraussetzungen
 
 Um die Anwendung lokal auszuführen, wird **Docker** benötigt.
@@ -11,28 +19,6 @@ Um die Anwendung lokal auszuführen, wird **Docker** benötigt.
 - **Mac:** Installieren Sie [Docker Desktop für Mac](https://www.docker.com/products/docker-desktop/).
 
 Es ist keine lokale Installation von Node.js notwendig, wenn Sie die Anwendung nur via Docker starten möchten.
-
-## Installation & Start (Windows & Linux)
-
-Die Befehle zum Bauen und Starten des Containers sind auf Windows (PowerShell oder CMD) und Linux (Bash) identisch.
-
-### 1. Docker-Image bauen
-
-Führen Sie folgenden Befehl im Hauptverzeichnis des Projekts aus:
-
-```bash
-docker build -t growento-ai-workshops .
-```
-
-### 2. Container starten
-
-Starten Sie den Container und mappen Sie den internen Port 80 auf den lokalen Port 8080:
-
-```bash
-docker run -p 8080:80 growento-ai-workshops
-```
-
-Die Landingpage ist anschließend im Browser unter `http://localhost:8080` erreichbar.
 
 ---
 
@@ -52,6 +38,8 @@ Das Projekt ist wie folgt aufgebaut:
 
 - **`/` (Root)**
   - `Dockerfile`: Multi-Stage Build-Konfiguration. Stufe 1 baut die React-App, Stufe 2 serviert die statischen Dateien mit Nginx.
+  - `StartApp.md`: Anleitung zum Starten der App.
+  - `start.sh` / `start.bat`: Skripte zum automatisierten Starten des Docker-Containers.
   - `package.json`, `vite.config.ts`, `tailwind.config.cjs`: Konfigurationsdateien für Dependencies, Build-Tool und Styling.
 
 - **`/src`** (Quellcode)
