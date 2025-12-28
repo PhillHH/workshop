@@ -101,16 +101,16 @@ const Home = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <CourseCard
-                title="KI-Grundlagen"
-                subtitle="Sicher starten im digitalen Zeitalter. Abbau von Berührungsängsten."
-                price="149 €"
-                duration="4 Stunden"
+                title="KI sinnvoll nutzen"
+                subtitle="Vom Ausprobieren zur echten Hilfe."
+                price="99 €"
+                duration="3,5 Stunden"
                 features={[
-                  "Was ist KI und wie funktioniert sie?",
-                  "Grundlagen Prompt Engineering",
-                  "Praxis: E-Mails, Reisen, Texte",
-                  "Einführung Bildgenerierung",
-                  "Sicherheit & Ethik"
+                  "Orientierung & Mentales Modell",
+                  "Praxis: 5 reale Anwendungsfälle",
+                  "Texte, Entscheidungen & Organisation",
+                  "Grenzen, Ethik & Datenschutz",
+                  "Keine Tools-Flut, sondern Verständnis"
                 ]}
                 link="/ki-grundlagen"
               />
@@ -222,9 +222,9 @@ const Home = () => {
                   <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <SproutIcon />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">KI-Neulinge</h3>
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">KI-Interessierte</h3>
                   <p className="text-gray-30 mb-4">
-                     Privatpersonen, Angestellte oder Studierende ohne Vorerfahrung, die neugierig sind, aber auch Ängste oder Unsicherheiten abbauen wollen.
+                     Menschen, die KI schon einmal genutzt haben (z.B. ChatGPT), aber unsicher sind, ob sie "richtig" damit arbeiten, und die keine Zeit für Technik-Tiefen haben.
                   </p>
                   <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
                </a>
