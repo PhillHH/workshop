@@ -25,10 +25,10 @@ const Checkout = () => {
 
   const getCourseDetails = (id: string | null) => {
     switch(id) {
-      case 'grundlagen': return { title: 'KI-Grundlagen', price: 149 };
+      case 'grundlagen': return { title: 'KI sinnvoll nutzen', price: 99 };
       case 'beruf': return { title: 'KI im Beruf', price: 299 };
       case 'automatisierung': return { title: 'KI-Automatisierung', price: 799 };
-      default: return { title: 'KI-Grundlagen', price: 149 }; // Default
+      default: return { title: 'KI sinnvoll nutzen', price: 99 }; // Default
     }
   };
 
