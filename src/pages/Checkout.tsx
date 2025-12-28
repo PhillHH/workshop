@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
 import { CheckIcon } from '../components/Icons';
 
 const Checkout = () => {
-  const [searchParams] = useSearchParams();
-  const courseParam = searchParams.get('course');
+  const [courseParam, setCourseParam] = useState<string | null>(null);
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -18,6 +16,12 @@ const Checkout = () => {
 
   const [submitted, setSubmitted] = useState(false);
   const [redirecting, setRedirecting] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const url = new URL(window.location.href);
+    setCourseParam(url.searchParams.get('course'));
+  }, []);
 
   const getCourseDetails = (id: string | null) => {
     switch(id) {
@@ -73,9 +77,9 @@ const Checkout = () => {
             <br/><br/>
             Sie erhalten in Kürze eine E-Mail mit der Rechnung und den Überweisungsdaten an <strong>{formData.email}</strong>.
           </p>
-          <Link to="/" className="inline-block bg-gray-80 text-white px-6 py-3 rounded-lg hover:bg-gray-70 transition-colors">
+          <a href="/" className="inline-block bg-gray-80 text-white px-6 py-3 rounded-lg hover:bg-gray-70 transition-colors">
             Zurück zur Startseite
-          </Link>
+          </a>
         </div>
       </div>
     );

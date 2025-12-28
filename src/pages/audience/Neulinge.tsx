@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { CheckIcon, SproutIcon } from '../../components/Icons';
 import CourseCard from '../../components/CourseCard';
 

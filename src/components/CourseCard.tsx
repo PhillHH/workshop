@@ -1,6 +1,5 @@
 import React from 'react';
 import { CheckIcon } from './Icons';
-import { Link } from 'react-router-dom';
 
 interface CourseCardProps {
   title: string;
@@ -46,8 +45,8 @@ const CourseCard: React.FC<CourseCardProps> = ({
           </li>
         ))}
       </ul>
-      <Link
-        to={link}
+      <a
+        href={link}
         className={`w-full block text-center py-3 px-4 rounded-lg font-semibold transition-colors ${
           isHighlight
             ? 'bg-primary text-white hover:bg-primary-dark'
@@ -55,7 +54,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
         }`}
       >
         Jetzt Kurs buchen
-      </Link>
+      </a>
     </div>
   );
 };

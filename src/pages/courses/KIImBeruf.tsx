@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { CheckIcon } from '../../components/Icons';
 import AccordionItem from '../../components/AccordionItem';
 
@@ -28,12 +27,12 @@ const KIImBeruf = () => {
                   <p className="text-3xl font-bold text-white">6 Std.</p>
                 </div>
               </div>
-              <Link
-                to="/checkout?course=beruf"
+              <a
+                href="/checkout?course=beruf"
                 className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105"
               >
                 Jetzt Platz sichern
-              </Link>
+              </a>
             </div>
             <div className="mt-12 lg:mt-0 relative">
                <div className="aspect-video bg-gray-80 rounded-2xl flex items-center justify-center border border-gray-70">
@@ -100,7 +99,7 @@ const KIImBeruf = () => {
                        <p className="text-gray-30 text-sm leading-relaxed">
                           Sarah optimiert seit Jahren Unternehmensprozesse. Sie zeigt Ihnen nicht nur die Tools, sondern wie man sie effizient in den Arbeitsalltag integriert.
                        </p>
-                       <Link to="/trainer" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</Link>
+                       <a href="/trainer" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</a>
                     </div>
                  </div>
 
@@ -138,12 +137,12 @@ const KIImBeruf = () => {
       </section>
 
       <div className="py-12 text-center">
-         <Link
-            to="/checkout?course=beruf"
+         <a
+            href="/checkout?course=beruf"
             className="inline-block bg-primary hover:bg-primary-dark text-white px-10 py-5 rounded-lg text-xl font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105"
           >
             Jetzt anmelden für 299 €
-         </Link>
+         </a>
       </div>
     </div>
   );

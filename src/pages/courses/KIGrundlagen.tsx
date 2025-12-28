@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { CheckIcon, ChevronDownIcon } from '../../components/Icons';
 import AccordionItem from '../../components/AccordionItem';
 
@@ -28,12 +27,12 @@ const KIGrundlagen = () => {
                   <p className="text-3xl font-bold text-white">4 Std.</p>
                 </div>
               </div>
-              <Link
-                to="/checkout?course=grundlagen"
+              <a
+                href="/checkout?course=grundlagen"
                 className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105"
               >
                 Jetzt Platz sichern
-              </Link>
+              </a>
             </div>
             {/* Visual/Image Placeholder */}
             <div className="mt-12 lg:mt-0 relative">
@@ -108,7 +107,7 @@ const KIGrundlagen = () => {
                        <p className="text-gray-30 text-sm leading-relaxed">
                           Alex begleitet seit 5 Jahren Menschen in die digitale Welt. Seine Stärke ist es, komplexe Technik einfach und mit Spaß zu vermitteln.
                        </p>
-                       <Link to="/trainer" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</Link>
+                       <a href="/trainer" className="text-primary text-sm mt-2 inline-block hover:underline">Mehr über das Team erfahren →</a>
                     </div>
                  </div>
 
@@ -147,12 +146,12 @@ const KIGrundlagen = () => {
 
       {/* Sticky Bottom CTA for Mobile (Optional) or repeated CTA */}
       <div className="py-12 text-center">
-         <Link
-            to="/checkout?course=grundlagen"
+         <a
+            href="/checkout?course=grundlagen"
             className="inline-block bg-primary hover:bg-primary-dark text-white px-10 py-5 rounded-lg text-xl font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105"
           >
             Jetzt anmelden für 149 €
-         </Link>
+         </a>
       </div>
     </div>
   );

@@ -5,7 +5,6 @@ import CourseCard from '../components/CourseCard';
 import AccordionItem from '../components/AccordionItem';
 import TrustSection from '../components/TrustSection';
 import { PlayIcon, SproutIcon, RocketIcon, GearsIcon } from '../components/Icons';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -48,7 +47,7 @@ const Home = () => {
 
               {/* Video Placeholder */}
               <div className="lg:col-span-6">
-                 <Link to="/referenzen">
+                 <a href="/referenzen">
                   <div className="relative group cursor-pointer w-full aspect-video bg-gray-90 rounded-2xl border border-gray-80 overflow-hidden shadow-2xl">
                     {/* Mock UI for "AI Tool" look */}
                     <div className="absolute top-0 left-0 w-full h-8 bg-gray-80 border-b border-gray-70 flex items-center px-4 space-x-2">
@@ -67,7 +66,7 @@ const Home = () => {
                     {/* Decorative grid lines */}
                     <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none top-8"></div>
                   </div>
-                 </Link>
+                 </a>
               </div>
             </div>
           </div>
@@ -219,7 +218,7 @@ const Home = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                {/* Persona 1 */}
-               <Link to="/fuer-neulinge" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+               <a href="/fuer-neulinge" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
                   <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <SproutIcon />
                   </div>
@@ -228,10 +227,10 @@ const Home = () => {
                      Privatpersonen, Angestellte oder Studierende ohne Vorerfahrung, die neugierig sind, aber auch Ängste oder Unsicherheiten abbauen wollen.
                   </p>
                   <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
-               </Link>
+               </a>
 
                {/* Persona 2 */}
-               <Link to="/fuer-berufstaetige" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+               <a href="/fuer-berufstaetige" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
                   <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <RocketIcon />
                   </div>
@@ -240,10 +239,10 @@ const Home = () => {
                      Berufstätige und Kreative, die KI gezielt zur Steigerung ihrer Produktivität und Qualität im Arbeitsalltag einsetzen wollen.
                   </p>
                   <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
-               </Link>
+               </a>
 
                {/* Persona 3 */}
-               <Link to="/fuer-manager-strategen" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
+               <a href="/fuer-manager-strategen" className="text-center p-6 rounded-2xl hover:bg-gray-90 transition-colors group">
                   <div className="w-16 h-16 mx-auto bg-gray-80 rounded-full flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform">
                      <GearsIcon />
                   </div>
@@ -252,7 +251,7 @@ const Home = () => {
                      Teamleiter und Manager, die ganze Arbeitsabläufe im Unternehmen mithilfe von KI optimieren und automatisieren möchten.
                   </p>
                   <span className="text-primary text-sm font-semibold hover:underline">Mehr erfahren →</span>
-               </Link>
+               </a>
             </div>
           </div>
         </section>
